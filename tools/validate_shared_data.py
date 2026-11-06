@@ -26,8 +26,8 @@ def validate_application_ids() -> None:
     capacitor_gradle = (ROOT / "android/app/build.gradle").read_text(encoding="utf-8")
     capacitor_config = json.loads((ROOT / "capacitor.config.json").read_text(encoding="utf-8"))
 
-    native_match = re.search(r'applicationId\\s*=\\s*"([^"]+)"', native_gradle)
-    capacitor_match = re.search(r'applicationId\\s+"([^"]+)"', capacitor_gradle)
+    native_match = re.search(r'applicationId\s*=\s*"([^"]+)"', native_gradle)
+    capacitor_match = re.search(r'applicationId\s+"([^"]+)"', capacitor_gradle)
     configured_id = capacitor_config.get("appId")
 
     if not native_match or not capacitor_match:
