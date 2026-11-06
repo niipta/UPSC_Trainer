@@ -121,7 +121,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     if (selectedGroup === '⚡ Coal & Energy') {
       matchGroup = ['coal_fields', 'oil_refineries', 'nuclear_power', 'iron_ore', 'bauxite', 'copper_mines'].includes(t.id);
     } else if (selectedGroup === '🌊 Rivers & Dams') {
-      matchGroup = ['major_dams'].includes(t.id) || t.title.toLowerCase().includes('dam') || t.title.toLowerCase().includes('river');
+      matchGroup = ['major_dams', 'ssc_major_dams', 'ssc_major_rivers'].includes(t.id) || t.title.toLowerCase().includes('dam') || t.title.toLowerCase().includes('river');
     } else if (selectedGroup === '🌿 Ecology & Wetlands') {
       matchGroup = ['ramsar_sites', 'national_parks', 'tiger_reserves', 'biosphere_reserves'].includes(t.id);
     } else if (selectedGroup === '🏛️ History & Culture') {
