@@ -2,7 +2,7 @@
 
 > **A dual-platform India geography learning suite for UPSC Civil Services aspirants, with a Kotlin native Android app and a feature-rich React web app.**
 
-Built with **Kotlin + Jetpack Compose (Material 3)** for Android (minSdk 26, targetSdk 35) and fully interactive in the web preview emulator. Zero map tiles, zero network calls, zero API keys.
+The native Android app uses **Kotlin + Jetpack Compose (Material 3)** (minSdk 26, targetSdk 35); the web app uses **React + TypeScript + Vite**, with an optional Capacitor Android package. The native map renderer does not require remote map tiles or a map API key.
 
 ---
 
