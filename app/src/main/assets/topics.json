@@ -2,9 +2,9 @@
   {
     "id": "coal_fields",
     "title": "Coal & Lignite Fields",
-    "emoji": "\u26cf\ufe0f",
+    "emoji": "⛏️",
     "color": "#475569",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Mineral Resources",
+    "syllabus": "GS1 · Geography · Mineral Resources",
     "noun": "coalfield",
     "blurb": "Gondwana coal basins and tertiary lignite deposits across India.",
     "categories": [
@@ -188,9 +188,9 @@
   {
     "id": "oil_gas_fields",
     "title": "Oil & Gas Fields",
-    "emoji": "\ud83d\udee2\ufe0f",
+    "emoji": "🛢️",
     "color": "#D97706",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Energy Resources",
+    "syllabus": "GS1 · Geography · Energy Resources",
     "noun": "oil/gas field",
     "blurb": "Major onshore basins and continental shelf offshore hydrocarbon reserves.",
     "categories": [
@@ -331,9 +331,9 @@
   {
     "id": "oil_refineries",
     "title": "Oil Refineries",
-    "emoji": "\ud83c\udfed",
+    "emoji": "🏭",
     "color": "#B45309",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Industrial Location",
+    "syllabus": "GS1 · Geography · Industrial Location",
     "noun": "refinery",
     "blurb": "Coastal and inland petroleum refining centers of strategic importance.",
     "categories": [
@@ -507,9 +507,9 @@
   {
     "id": "iron_steel_plants",
     "title": "Iron & Steel Plants",
-    "emoji": "\ud83c\udfd7\ufe0f",
+    "emoji": "🏗️",
     "color": "#475569",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Heavy Industries",
+    "syllabus": "GS1 · Geography · Heavy Industries",
     "noun": "steel plant",
     "blurb": "Integrated public and private steel manufacturing hubs and alloy centers.",
     "categories": [
@@ -659,9 +659,9 @@
   {
     "id": "minerals_mines",
     "title": "Mineral Belts & Mines",
-    "emoji": "\ud83d\udc8e",
+    "emoji": "💎",
     "color": "#0D9488",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Non-Ferrous & Strategic Minerals",
+    "syllabus": "GS1 · Geography · Non-Ferrous & Strategic Minerals",
     "noun": "mine / deposit",
     "blurb": "Strategic deposits of iron ore, copper, bauxite, uranium, gold and rare earths.",
     "categories": [
@@ -779,7 +779,7 @@
       },
       {
         "name": "Chavara",
-        "lat": 9.0,
+        "lat": 9,
         "lon": 76.53,
         "state": "Kerala",
         "category": "Mica & Rare Earth",
@@ -838,9 +838,9 @@
   {
     "id": "major_ports",
     "title": "Major Ports of India",
-    "emoji": "\u2693",
+    "emoji": "⚓",
     "color": "#0284C7",
-    "syllabus": "GS1/GS3 \u00b7 Infrastructure \u00b7 Shipping",
+    "syllabus": "GS1/GS3 · Infrastructure · Shipping",
     "noun": "port",
     "blurb": "Central government major ports and newly approved deep-draft landlord ports.",
     "categories": [
@@ -990,9 +990,9 @@
   {
     "id": "nuclear_power",
     "title": "Nuclear Power Sites",
-    "emoji": "\u269b\ufe0f",
+    "emoji": "⚛️",
     "color": "#7C3AED",
-    "syllabus": "GS3 \u00b7 Science & Tech \u00b7 Nuclear Energy",
+    "syllabus": "GS3 · Science & Tech · Nuclear Energy",
     "noun": "nuclear plant",
     "blurb": "Operating commercial reactors, fast breeders, and proposed mega parks.",
     "categories": [
@@ -1134,9 +1134,9 @@
   {
     "id": "dams_barrages",
     "title": "Dams & Barrages",
-    "emoji": "\ud83c\udf0a",
+    "emoji": "🌊",
     "color": "#2563EB",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Water Resources & River Systems",
+    "syllabus": "GS1 · Geography · Water Resources & River Systems",
     "noun": "dam / barrage",
     "blurb": "Architectural marvels across India's peninsular and Himalayan river systems.",
     "categories": [
@@ -1286,9 +1286,9 @@
   {
     "id": "national_parks",
     "title": "National Parks & Tiger Reserves",
-    "emoji": "\ud83d\udc05",
+    "emoji": "🐅",
     "color": "#16A34A",
-    "syllabus": "GS3 \u00b7 Environment \u00b7 Wildlife Conservation",
+    "syllabus": "GS3 · Environment · Wildlife Conservation",
     "noun": "national park / reserve",
     "blurb": "Prime habitats of the Royal Bengal Tiger, Asiatic Lion, and endemic fauna.",
     "categories": [
@@ -1371,7 +1371,7 @@
       },
       {
         "name": "Hemis",
-        "lat": 34.0,
+        "lat": 34,
         "lon": 77.2,
         "state": "Ladakh",
         "category": "National Park",
@@ -1454,9 +1454,9 @@
   {
     "id": "biosphere_reserves",
     "title": "Biosphere Reserves",
-    "emoji": "\ud83c\udf3f",
+    "emoji": "🌿",
     "color": "#059669",
-    "syllabus": "GS3 \u00b7 Environment \u00b7 MAB Programme",
+    "syllabus": "GS3 · Environment · MAB Programme",
     "noun": "biosphere reserve",
     "blurb": "UNESCO Man and the Biosphere (MAB) reserves and representative ecosystems.",
     "categories": [
@@ -1530,7 +1530,7 @@
       },
       {
         "name": "Great Nicobar",
-        "lat": 7.0,
+        "lat": 7,
         "lon": 93.8,
         "state": "Andaman & Nicobar Islands",
         "category": "UNESCO WNBR Recognized",
@@ -1571,7 +1571,7 @@
       {
         "name": "Dehang-Dibang",
         "lat": 28.5,
-        "lon": 95.0,
+        "lon": 95,
         "state": "Arunachal Pradesh",
         "category": "National Biosphere Reserve",
         "fact": "Eastern Himalayan reserve encompassing Siang and Dibang river valleys with Takin."
@@ -1579,7 +1579,7 @@
       {
         "name": "Great Rann of Kutch",
         "lat": 23.8,
-        "lon": 70.0,
+        "lon": 70,
         "state": "Gujarat",
         "category": "National Biosphere Reserve",
         "fact": "Largest biosphere reserve in India by area, famous for seasonal salt desert and Indian Wild Ass."
@@ -1621,9 +1621,9 @@
   {
     "id": "ramsar_wetlands",
     "title": "Ramsar Wetlands",
-    "emoji": "\ud83e\udeb7",
+    "emoji": "🪷",
     "color": "#0891B2",
-    "syllabus": "GS3 \u00b7 Environment \u00b7 Wetland Ecology",
+    "syllabus": "GS3 · Environment · Wetland Ecology",
     "noun": "Ramsar wetland",
     "blurb": "Wetlands of international importance under the Ramsar Convention.",
     "categories": [
@@ -1667,7 +1667,7 @@
       {
         "name": "Sambhar Lake",
         "lat": 26.9,
-        "lon": 75.0,
+        "lon": 75,
         "state": "Rajasthan",
         "category": "Inland Lake Wetland",
         "fact": "India's largest inland saline lake; key wintering area for tens of thousands of flamingos."
@@ -1781,9 +1781,9 @@
   {
     "id": "unesco_heritage",
     "title": "UNESCO World Heritage Sites",
-    "emoji": "\ud83c\udfdb\ufe0f",
+    "emoji": "🏛️",
     "color": "#CA8A04",
-    "syllabus": "GS1 \u00b7 Art & Culture \u00b7 Monuments & Heritage",
+    "syllabus": "GS1 · Art & Culture · Monuments & Heritage",
     "noun": "heritage site",
     "blurb": "Monuments, architectural masterpieces, and pristine natural biomes.",
     "categories": [
@@ -1933,9 +1933,9 @@
   {
     "id": "lakes_lagoons",
     "title": "Lakes & Lagoons of India",
-    "emoji": "\ud83d\udca7",
+    "emoji": "💧",
     "color": "#0284C7",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Geomorphology & Drainage",
+    "syllabus": "GS1 · Geography · Geomorphology & Drainage",
     "noun": "lake / lagoon",
     "blurb": "Crater, tectonic, glacial, and coastal water bodies across physiographic zones.",
     "categories": [
@@ -2012,7 +2012,7 @@
       {
         "name": "Tso Kar",
         "lat": 33.3,
-        "lon": 78.0,
+        "lon": 78,
         "state": "Ladakh",
         "category": "Crater / Endorheic Lake",
         "fact": "Fluctuating white hypersaline lake known for extensive efflorescence of borax and salt deposits."
@@ -2044,7 +2044,7 @@
       {
         "name": "Jaisamand Lake (Dhebar)",
         "lat": 24.24,
-        "lon": 74.0,
+        "lon": 74,
         "state": "Rajasthan",
         "category": "Tectonic / Fluvial Lake",
         "fact": "Historic artificial freshwater lake built by Maharana Jai Singh in 1685 across the Gomati river."
@@ -2094,9 +2094,9 @@
   {
     "id": "mountain_passes",
     "title": "Mountain Passes",
-    "emoji": "\ud83c\udfd4\ufe0f",
+    "emoji": "🏔️",
     "color": "#64748B",
-    "syllabus": "GS1 \u00b7 Physical Geography \u00b7 Himalayan Orogeny",
+    "syllabus": "GS1 · Physical Geography · Himalayan Orogeny",
     "noun": "pass",
     "blurb": "Strategic mountain gateways across the Himalayas and the Western Ghats.",
     "categories": [
@@ -2271,9 +2271,9 @@
   {
     "id": "mountain_peaks",
     "title": "Mountain Peaks of India",
-    "emoji": "\u26f0\ufe0f",
+    "emoji": "⛰️",
     "color": "#334155",
-    "syllabus": "GS1 \u00b7 Geography \u00b7 Physiography",
+    "syllabus": "GS1 · Geography · Physiography",
     "noun": "peak",
     "blurb": "Highest summits of the Himalayas, Karakoram, Purvanchal and Peninsular ranges.",
     "categories": [
@@ -2431,9 +2431,9 @@
   {
     "id": "ancient_sites",
     "title": "Harappan & Ashokan Sites",
-    "emoji": "\ud83c\udffa",
+    "emoji": "🏺",
     "color": "#9A3412",
-    "syllabus": "GS1 \u00b7 Ancient Indian History \u00b7 Archaeology",
+    "syllabus": "GS1 · Ancient Indian History · Archaeology",
     "noun": "ancient site",
     "blurb": "Indus Valley civilization cities and Mauryan edicts, stupas, and pillars.",
     "categories": [
@@ -2585,6 +2585,756 @@
           "Pushkar Lake"
         ],
         "explanation": "Junagadh rock contains inscriptions of Ashoka, Saka ruler Rudradaman I, and Gupta emperor Skandagupta concerning the Sudarshana lake bund repairs."
+      }
+    ]
+  },
+  {
+    "id": "ssc_national_parks",
+    "title": "National Parks of India",
+    "emoji": "🌳",
+    "color": "#16835D",
+    "syllabus": "SSC GK · Geography · Environment",
+    "noun": "national park",
+    "blurb": "Important national parks, their states, landscapes and flagship species for SSC and one-day exams.",
+    "categories": [
+      "Himalayan",
+      "Terai & North India",
+      "Central & Western India",
+      "Southern & Eastern India"
+    ],
+    "places": [
+      {
+        "name": "Jim Corbett National Park",
+        "lat": 29.53,
+        "lon": 78.77,
+        "state": "Uttarakhand",
+        "category": "Himalayan",
+        "fact": "India's oldest national park, established in 1936 as Hailey National Park; located in the Himalayan foothills."
+      },
+      {
+        "name": "Dudhwa National Park",
+        "lat": 28.52,
+        "lon": 80.63,
+        "state": "Uttar Pradesh",
+        "category": "Terai & North India",
+        "fact": "Terai grassland and sal forest landscape; known for swamp deer and the reintroduced one-horned rhinoceros."
+      },
+      {
+        "name": "Ranthambore National Park",
+        "lat": 26.02,
+        "lon": 76.5,
+        "state": "Rajasthan",
+        "category": "Central & Western India",
+        "fact": "Famous tiger habitat around the historic Ranthambore Fort in the Aravalli-Vindhyan region."
+      },
+      {
+        "name": "Gir National Park",
+        "lat": 21.13,
+        "lon": 70.79,
+        "state": "Gujarat",
+        "category": "Central & Western India",
+        "fact": "The last natural habitat of the Asiatic lion."
+      },
+      {
+        "name": "Kanha National Park",
+        "lat": 22.33,
+        "lon": 80.61,
+        "state": "Madhya Pradesh",
+        "category": "Central & Western India",
+        "fact": "Sal and bamboo forests; associated with the hard-ground barasingha conservation story."
+      },
+      {
+        "name": "Kaziranga National Park",
+        "lat": 26.58,
+        "lon": 93.17,
+        "state": "Assam",
+        "category": "Southern & Eastern India",
+        "fact": "Brahmaputra floodplain grasslands; globally known for the greater one-horned rhinoceros."
+      },
+      {
+        "name": "Sundarbans National Park",
+        "lat": 21.95,
+        "lon": 88.9,
+        "state": "West Bengal",
+        "category": "Southern & Eastern India",
+        "fact": "Tidal mangrove ecosystem in the Ganga-Brahmaputra delta; habitat of the Royal Bengal tiger."
+      },
+      {
+        "name": "Periyar National Park",
+        "lat": 9.47,
+        "lon": 77.17,
+        "state": "Kerala",
+        "category": "Southern & Eastern India",
+        "fact": "Protected area around Periyar Lake in the Western Ghats; known for elephants."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which was the first national park established in India?",
+        "correct": "Jim Corbett National Park",
+        "wrong": [
+          "Kaziranga National Park",
+          "Gir National Park",
+          "Kanha National Park"
+        ],
+        "explanation": "It was established in 1936 as Hailey National Park in the United Provinces, now Uttarakhand."
+      },
+      {
+        "question": "Gir National Park is famous for which animal?",
+        "correct": "Asiatic lion",
+        "wrong": [
+          "Bengal tiger",
+          "One-horned rhinoceros",
+          "Snow leopard"
+        ],
+        "explanation": "Gir in Gujarat is the last natural habitat of the Asiatic lion."
+      },
+      {
+        "question": "Kaziranga National Park is located in which state?",
+        "correct": "Assam",
+        "wrong": [
+          "Arunachal Pradesh",
+          "West Bengal",
+          "Meghalaya"
+        ],
+        "explanation": "Kaziranga protects the Brahmaputra floodplain and is famous for the greater one-horned rhinoceros."
+      },
+      {
+        "question": "The Sundarbans are associated with which ecosystem?",
+        "correct": "Mangrove forests",
+        "wrong": [
+          "Alpine meadows",
+          "Cold desert",
+          "Coral atolls"
+        ],
+        "explanation": "The Sundarbans are tidal mangrove forests in the Ganga-Brahmaputra delta."
+      },
+      {
+        "question": "Dudhwa National Park is located in which state?",
+        "correct": "Uttar Pradesh",
+        "wrong": [
+          "Uttarakhand",
+          "Bihar",
+          "Madhya Pradesh"
+        ],
+        "explanation": "Dudhwa lies in the Terai region of Uttar Pradesh near the Nepal border."
+      },
+      {
+        "question": "Periyar National Park is in which mountain range?",
+        "correct": "Western Ghats",
+        "wrong": [
+          "Aravalli",
+          "Eastern Ghats",
+          "Himalaya"
+        ],
+        "explanation": "Periyar is a Western Ghats protected area in Kerala."
+      }
+    ]
+  },
+  {
+    "id": "ssc_tiger_reserves",
+    "title": "Tiger Reserves of India",
+    "emoji": "🐅",
+    "color": "#B45309",
+    "syllabus": "SSC GK · Geography · Environment",
+    "noun": "tiger reserve",
+    "blurb": "High-yield tiger reserve locations and their states for map-based revision.",
+    "categories": [
+      "North & Central India",
+      "Western & Central India",
+      "East & North-East India",
+      "South India"
+    ],
+    "places": [
+      {
+        "name": "Corbett Tiger Reserve",
+        "lat": 29.53,
+        "lon": 78.77,
+        "state": "Uttarakhand",
+        "category": "North & Central India",
+        "fact": "India's first national park landscape and an important tiger reserve in the Shivalik foothills."
+      },
+      {
+        "name": "Dudhwa Tiger Reserve",
+        "lat": 28.52,
+        "lon": 80.63,
+        "state": "Uttar Pradesh",
+        "category": "North & Central India",
+        "fact": "Terai ecosystem in Lakhimpur Kheri region; includes Dudhwa, Kishanpur and Katarniaghat landscapes."
+      },
+      {
+        "name": "Ranthambore Tiger Reserve",
+        "lat": 26.02,
+        "lon": 76.5,
+        "state": "Rajasthan",
+        "category": "Western & Central India",
+        "fact": "Dry deciduous forests and lakes around Ranthambore Fort."
+      },
+      {
+        "name": "Kanha Tiger Reserve",
+        "lat": 22.33,
+        "lon": 80.61,
+        "state": "Madhya Pradesh",
+        "category": "Western & Central India",
+        "fact": "Central Indian highlands reserve noted for barasingha conservation."
+      },
+      {
+        "name": "Bandhavgarh Tiger Reserve",
+        "lat": 23.7,
+        "lon": 81.03,
+        "state": "Madhya Pradesh",
+        "category": "Western & Central India",
+        "fact": "Known for high tiger visibility and its historic fort landscape."
+      },
+      {
+        "name": "Kaziranga Tiger Reserve",
+        "lat": 26.58,
+        "lon": 93.17,
+        "state": "Assam",
+        "category": "East & North-East India",
+        "fact": "Floodplain grasslands and wetlands of the Brahmaputra valley."
+      },
+      {
+        "name": "Sundarbans Tiger Reserve",
+        "lat": 21.95,
+        "lon": 88.9,
+        "state": "West Bengal",
+        "category": "East & North-East India",
+        "fact": "Mangrove tiger habitat in the deltaic islands of the Bay of Bengal."
+      },
+      {
+        "name": "Bandipur Tiger Reserve",
+        "lat": 11.67,
+        "lon": 76.63,
+        "state": "Karnataka",
+        "category": "South India",
+        "fact": "Part of the Nilgiri Biosphere landscape and an important Western Ghats-Nilgiri corridor."
+      },
+      {
+        "name": "Periyar Tiger Reserve",
+        "lat": 9.47,
+        "lon": 77.17,
+        "state": "Kerala",
+        "category": "South India",
+        "fact": "Western Ghats reserve centred on the Periyar lake and evergreen forest landscape."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Which tiger reserve is located in the Terai region of Uttar Pradesh?",
+        "correct": "Dudhwa",
+        "wrong": [
+          "Sariska",
+          "Pench",
+          "Periyar"
+        ],
+        "explanation": "Dudhwa Tiger Reserve protects the Terai ecosystem in Uttar Pradesh."
+      },
+      {
+        "question": "Bandipur Tiger Reserve is located in which state?",
+        "correct": "Karnataka",
+        "wrong": [
+          "Kerala",
+          "Tamil Nadu",
+          "Telangana"
+        ],
+        "explanation": "Bandipur is in Karnataka and forms part of the Nilgiri landscape."
+      },
+      {
+        "question": "Which tiger reserve is characterised by a mangrove ecosystem?",
+        "correct": "Sundarbans",
+        "wrong": [
+          "Kanha",
+          "Ranthambore",
+          "Bandhavgarh"
+        ],
+        "explanation": "Sundarbans is the mangrove tiger habitat in the Ganga-Brahmaputra delta."
+      },
+      {
+        "question": "Kanha Tiger Reserve is especially associated with conservation of which deer?",
+        "correct": "Hard-ground barasingha",
+        "wrong": [
+          "Hangul",
+          "Sangai",
+          "Blackbuck"
+        ],
+        "explanation": "Kanha is known for the conservation recovery of the hard-ground barasingha."
+      },
+      {
+        "question": "Periyar Tiger Reserve is situated in which state?",
+        "correct": "Kerala",
+        "wrong": [
+          "Karnataka",
+          "Andhra Pradesh",
+          "Goa"
+        ],
+        "explanation": "Periyar lies in the southern Western Ghats of Kerala."
+      }
+    ]
+  },
+  {
+    "id": "ssc_major_dams",
+    "title": "Major Dams & Multipurpose Projects",
+    "emoji": "💧",
+    "color": "#2563EB",
+    "syllabus": "SSC GK · Geography · Rivers & Irrigation",
+    "noun": "dam",
+    "blurb": "Major Indian dams, the rivers they cross and their states—core one-day-exam static GK.",
+    "categories": [
+      "Himalayan Rivers",
+      "Peninsular Rivers",
+      "Western & Southern Rivers"
+    ],
+    "places": [
+      {
+        "name": "Tehri Dam",
+        "lat": 30.38,
+        "lon": 78.48,
+        "state": "Uttarakhand",
+        "category": "Himalayan Rivers",
+        "fact": "Earth-and-rockfill dam on the Bhagirathi River; associated with hydroelectricity and irrigation."
+      },
+      {
+        "name": "Bhakra Dam",
+        "lat": 31.41,
+        "lon": 76.44,
+        "state": "Himachal Pradesh",
+        "category": "Himalayan Rivers",
+        "fact": "Concrete gravity dam on the Sutlej River; a key component of the Bhakra-Nangal project."
+      },
+      {
+        "name": "Pong Dam",
+        "lat": 32.02,
+        "lon": 76.05,
+        "state": "Himachal Pradesh",
+        "category": "Himalayan Rivers",
+        "fact": "Maharana Pratap Sagar reservoir on the Beas River."
+      },
+      {
+        "name": "Hirakud Dam",
+        "lat": 21.53,
+        "lon": 83.87,
+        "state": "Odisha",
+        "category": "Peninsular Rivers",
+        "fact": "Long earthen dam across the Mahanadi River near Sambalpur."
+      },
+      {
+        "name": "Rihand Dam",
+        "lat": 24.2,
+        "lon": 82.78,
+        "state": "Uttar Pradesh",
+        "category": "Peninsular Rivers",
+        "fact": "Govind Ballabh Pant Sagar reservoir on the Rihand River, a tributary of the Son."
+      },
+      {
+        "name": "Sardar Sarovar Dam",
+        "lat": 21.83,
+        "lon": 73.75,
+        "state": "Gujarat",
+        "category": "Western & Southern Rivers",
+        "fact": "Major concrete gravity dam on the Narmada River, part of the Narmada Valley Project."
+      },
+      {
+        "name": "Ukai Dam",
+        "lat": 21.24,
+        "lon": 73.58,
+        "state": "Gujarat",
+        "category": "Western & Southern Rivers",
+        "fact": "Vallabh Sagar reservoir on the Tapi River."
+      },
+      {
+        "name": "Nagarjuna Sagar Dam",
+        "lat": 16.58,
+        "lon": 79.31,
+        "state": "Telangana",
+        "category": "Peninsular Rivers",
+        "fact": "Masonry dam across the Krishna River on the Telangana-Andhra Pradesh region."
+      },
+      {
+        "name": "Mettur Dam",
+        "lat": 11.8,
+        "lon": 77.8,
+        "state": "Tamil Nadu",
+        "category": "Western & Southern Rivers",
+        "fact": "Stanley Reservoir on the Kaveri River in Tamil Nadu."
+      },
+      {
+        "name": "Krishna Raja Sagara Dam",
+        "lat": 12.42,
+        "lon": 76.57,
+        "state": "Karnataka",
+        "category": "Western & Southern Rivers",
+        "fact": "Dam across the Kaveri River near Mysuru; associated with the Brindavan Gardens."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Tehri Dam is built on which river?",
+        "correct": "Bhagirathi",
+        "wrong": [
+          "Alaknanda",
+          "Sutlej",
+          "Yamuna"
+        ],
+        "explanation": "Tehri Dam is on the Bhagirathi River in Uttarakhand."
+      },
+      {
+        "question": "Hirakud Dam is built across which river?",
+        "correct": "Mahanadi",
+        "wrong": [
+          "Godavari",
+          "Krishna",
+          "Brahmani"
+        ],
+        "explanation": "Hirakud Dam is located across the Mahanadi near Sambalpur in Odisha."
+      },
+      {
+        "question": "Bhakra Dam is associated with which river?",
+        "correct": "Sutlej",
+        "wrong": [
+          "Beas",
+          "Ravi",
+          "Chenab"
+        ],
+        "explanation": "Bhakra Dam is on the Sutlej River in Himachal Pradesh."
+      },
+      {
+        "question": "Sardar Sarovar Project is on which river?",
+        "correct": "Narmada",
+        "wrong": [
+          "Tapi",
+          "Mahi",
+          "Sabarmati"
+        ],
+        "explanation": "Sardar Sarovar is a major multipurpose project on the Narmada in Gujarat."
+      },
+      {
+        "question": "Mettur Dam forms which reservoir?",
+        "correct": "Stanley Reservoir",
+        "wrong": [
+          "Gobind Sagar",
+          "Govind Ballabh Pant Sagar",
+          "Maharana Pratap Sagar"
+        ],
+        "explanation": "Mettur Dam on the Kaveri forms the Stanley Reservoir."
+      },
+      {
+        "question": "Nagarjuna Sagar Dam is built on which river?",
+        "correct": "Krishna",
+        "wrong": [
+          "Godavari",
+          "Pennar",
+          "Kaveri"
+        ],
+        "explanation": "Nagarjuna Sagar is a major masonry dam across the Krishna River."
+      }
+    ]
+  },
+  {
+    "id": "ssc_major_rivers",
+    "title": "Major Rivers & River Systems",
+    "emoji": "🌊",
+    "color": "#0F766E",
+    "syllabus": "SSC GK · Geography · Drainage System",
+    "noun": "river",
+    "blurb": "River origins, tributaries, drainage patterns and important river-system facts for competitive exams.",
+    "categories": [
+      "Himalayan Rivers",
+      "Peninsular East-flowing",
+      "Peninsular West-flowing"
+    ],
+    "places": [
+      {
+        "name": "Gangotri Glacier (Bhagirathi source)",
+        "lat": 30.99,
+        "lon": 79.07,
+        "state": "Uttarakhand",
+        "category": "Himalayan Rivers",
+        "fact": "The Bhagirathi rises near Gaumukh in the Gangotri Glacier; it meets the Alaknanda at Devprayag to form the Ganga."
+      },
+      {
+        "name": "Yamunotri",
+        "lat": 31.01,
+        "lon": 78.46,
+        "state": "Uttarakhand",
+        "category": "Himalayan Rivers",
+        "fact": "The Yamuna rises near the Yamunotri region in the Bandar Poonch range."
+      },
+      {
+        "name": "Siachen Glacier (Nubra-Shyok headwaters)",
+        "lat": 35.42,
+        "lon": 77.1,
+        "state": "Ladakh",
+        "category": "Himalayan Rivers",
+        "fact": "The Nubra River originates from the Siachen Glacier and joins the Shyok, part of the Indus system."
+      },
+      {
+        "name": "Amarkantak (Narmada source)",
+        "lat": 22.67,
+        "lon": 81.75,
+        "state": "Madhya Pradesh",
+        "category": "Peninsular West-flowing",
+        "fact": "The Narmada rises in the Maikal range at Amarkantak and flows west through a rift valley."
+      },
+      {
+        "name": "Trimbakeshwar (Godavari source)",
+        "lat": 19.93,
+        "lon": 73.53,
+        "state": "Maharashtra",
+        "category": "Peninsular East-flowing",
+        "fact": "The Godavari rises near Trimbakeshwar in the Western Ghats and is the longest peninsular river."
+      },
+      {
+        "name": "Talakaveri (Kaveri source)",
+        "lat": 12.39,
+        "lon": 75.49,
+        "state": "Karnataka",
+        "category": "Peninsular East-flowing",
+        "fact": "The Kaveri rises at Talakaveri in the Brahmagiri hills of the Western Ghats."
+      },
+      {
+        "name": "Mahabaleshwar (Krishna source)",
+        "lat": 17.92,
+        "lon": 73.66,
+        "state": "Maharashtra",
+        "category": "Peninsular East-flowing",
+        "fact": "The Krishna rises near Mahabaleshwar and flows east to the Bay of Bengal."
+      },
+      {
+        "name": "Mahanadi source (Sihawa)",
+        "lat": 20.18,
+        "lon": 82,
+        "state": "Chhattisgarh",
+        "category": "Peninsular East-flowing",
+        "fact": "The Mahanadi rises in the Sihawa hills of Chhattisgarh and drains into the Bay of Bengal."
+      },
+      {
+        "name": "Netravati source region",
+        "lat": 13.05,
+        "lon": 75.4,
+        "state": "Karnataka",
+        "category": "Peninsular West-flowing",
+        "fact": "The Netravati flows west through Karnataka and enters the Arabian Sea near Mangaluru."
+      }
+    ],
+    "questions": [
+      {
+        "question": "The Ganga is formed by the confluence of Bhagirathi and Alaknanda at which place?",
+        "correct": "Devprayag",
+        "wrong": [
+          "Rudraprayag",
+          "Karnaprayag",
+          "Vishnuprayag"
+        ],
+        "explanation": "The Bhagirathi and Alaknanda meet at Devprayag in Uttarakhand to form the Ganga."
+      },
+      {
+        "question": "Which is the longest peninsular river of India?",
+        "correct": "Godavari",
+        "wrong": [
+          "Krishna",
+          "Mahanadi",
+          "Kaveri"
+        ],
+        "explanation": "The Godavari is the longest peninsular river and is often called the Dakshin Ganga."
+      },
+      {
+        "question": "The Narmada originates from which place?",
+        "correct": "Amarkantak",
+        "wrong": [
+          "Mahabaleshwar",
+          "Trimbakeshwar",
+          "Talakaveri"
+        ],
+        "explanation": "The Narmada rises at Amarkantak in the Maikal range and flows westward."
+      },
+      {
+        "question": "Which river rises near Mahabaleshwar?",
+        "correct": "Krishna",
+        "wrong": [
+          "Godavari",
+          "Kaveri",
+          "Tapi"
+        ],
+        "explanation": "The Krishna originates near Mahabaleshwar in Maharashtra."
+      },
+      {
+        "question": "The Kaveri originates at which location?",
+        "correct": "Talakaveri",
+        "wrong": [
+          "Amarkantak",
+          "Sihawa",
+          "Gangotri"
+        ],
+        "explanation": "Talakaveri is in the Brahmagiri hills of Karnataka."
+      },
+      {
+        "question": "Which of these rivers flows west through a rift valley?",
+        "correct": "Narmada",
+        "wrong": [
+          "Godavari",
+          "Mahanadi",
+          "Krishna"
+        ],
+        "explanation": "The Narmada flows west through a rift valley between the Vindhya and Satpura ranges."
+      }
+    ]
+  },
+  {
+    "id": "ssc_mountain_passes",
+    "title": "Mountain Passes of India",
+    "emoji": "🏔️",
+    "color": "#7C3AED",
+    "syllabus": "SSC GK · Geography · Himalayan Passes",
+    "noun": "mountain pass",
+    "blurb": "Important Himalayan and high-altitude passes, their regions and strategic connections.",
+    "categories": [
+      "Ladakh & Kashmir",
+      "Himachal & Uttarakhand",
+      "Sikkim & Arunachal"
+    ],
+    "places": [
+      {
+        "name": "Zoji La",
+        "lat": 34.28,
+        "lon": 75.5,
+        "state": "Ladakh",
+        "category": "Ladakh & Kashmir",
+        "fact": "Connects the Kashmir Valley with the Dras-Kargil region and Ladakh."
+      },
+      {
+        "name": "Khardung La",
+        "lat": 34.28,
+        "lon": 77.6,
+        "state": "Ladakh",
+        "category": "Ladakh & Kashmir",
+        "fact": "High mountain pass north of Leh on the route towards the Nubra Valley."
+      },
+      {
+        "name": "Banihal Pass",
+        "lat": 33.52,
+        "lon": 75.25,
+        "state": "Jammu & Kashmir",
+        "category": "Ladakh & Kashmir",
+        "fact": "Traditional route connecting the Jammu region with the Kashmir Valley; the Jawahar Tunnel is nearby."
+      },
+      {
+        "name": "Rohtang Pass",
+        "lat": 32.37,
+        "lon": 77.25,
+        "state": "Himachal Pradesh",
+        "category": "Himachal & Uttarakhand",
+        "fact": "Connects Kullu Valley with Lahaul-Spiti; the Atal Tunnel provides an all-weather alternative."
+      },
+      {
+        "name": "Shipki La",
+        "lat": 31.9,
+        "lon": 78.75,
+        "state": "Himachal Pradesh",
+        "category": "Himachal & Uttarakhand",
+        "fact": "Pass on the India-China border in Kinnaur; the Sutlej enters India nearby."
+      },
+      {
+        "name": "Mana Pass",
+        "lat": 30.77,
+        "lon": 79.42,
+        "state": "Uttarakhand",
+        "category": "Himachal & Uttarakhand",
+        "fact": "High-altitude pass near the India-Tibet border in the Chamoli region."
+      },
+      {
+        "name": "Nathu La",
+        "lat": 27.39,
+        "lon": 88.83,
+        "state": "Sikkim",
+        "category": "Sikkim & Arunachal",
+        "fact": "Connects Sikkim with the Chumbi Valley in Tibet; an important historic trade route."
+      },
+      {
+        "name": "Jelep La",
+        "lat": 27.34,
+        "lon": 88.86,
+        "state": "Sikkim",
+        "category": "Sikkim & Arunachal",
+        "fact": "Historic pass connecting the Kalimpong region with the Chumbi Valley."
+      },
+      {
+        "name": "Sela Pass",
+        "lat": 27.51,
+        "lon": 92.1,
+        "state": "Arunachal Pradesh",
+        "category": "Sikkim & Arunachal",
+        "fact": "High pass on the route to Tawang in Arunachal Pradesh."
+      },
+      {
+        "name": "Bomdi La",
+        "lat": 27.26,
+        "lon": 92.42,
+        "state": "Arunachal Pradesh",
+        "category": "Sikkim & Arunachal",
+        "fact": "Important pass and town on the route towards Tawang in western Arunachal Pradesh."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Nathu La pass is located in which state?",
+        "correct": "Sikkim",
+        "wrong": [
+          "Arunachal Pradesh",
+          "Uttarakhand",
+          "Himachal Pradesh"
+        ],
+        "explanation": "Nathu La connects Sikkim with the Chumbi Valley in Tibet."
+      },
+      {
+        "question": "Zoji La connects Kashmir with which region?",
+        "correct": "Ladakh",
+        "wrong": [
+          "Kullu Valley",
+          "Tawang",
+          "Spiti Valley"
+        ],
+        "explanation": "Zoji La lies on the route between the Kashmir Valley and Ladakh."
+      },
+      {
+        "question": "Rohtang Pass is located in which state?",
+        "correct": "Himachal Pradesh",
+        "wrong": [
+          "Uttarakhand",
+          "Sikkim",
+          "Jammu & Kashmir"
+        ],
+        "explanation": "Rohtang Pass connects Kullu with Lahaul-Spiti in Himachal Pradesh."
+      },
+      {
+        "question": "Which pass provides access to Tawang in Arunachal Pradesh?",
+        "correct": "Sela Pass",
+        "wrong": [
+          "Khardung La",
+          "Shipki La",
+          "Banihal Pass"
+        ],
+        "explanation": "Sela Pass is on the route to Tawang in western Arunachal Pradesh."
+      },
+      {
+        "question": "The Sutlej River enters India near which pass?",
+        "correct": "Shipki La",
+        "wrong": [
+          "Nathu La",
+          "Zoji La",
+          "Rohtang Pass"
+        ],
+        "explanation": "The Sutlej enters India from Tibet near Shipki La in Himachal Pradesh."
+      },
+      {
+        "question": "Khardung La is near which city?",
+        "correct": "Leh",
+        "wrong": [
+          "Shimla",
+          "Gangtok",
+          "Srinagar"
+        ],
+        "explanation": "Khardung La is north of Leh and lies on the route towards Nubra Valley."
       }
     ]
   }
