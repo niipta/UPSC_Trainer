@@ -133,7 +133,9 @@ def main():
     out_paths = [
         "assets/topics.json",
         "app/src/main/assets/topics.json",
-        "public/topics.json"
+        "public/topics.json",
+        "src/data/topics.json",
+        "android/app/src/main/assets/public/topics.json"
     ]
     for p in out_paths:
         os.makedirs(os.path.dirname(p), exist_ok=True)
