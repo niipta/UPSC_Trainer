@@ -98,7 +98,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     '⚡ Coal & Energy',
     '🌊 Rivers & Dams',
     '🌿 Ecology & Wetlands',
-    '🏛️ History & Culture'
+    '🏛️ History & Culture',
+    '🌳 Parks & Wildlife',
+    '🏔️ Passes & Rivers'
   ];
 
   const rank = getRankForXp(rewards?.xp || 0);
@@ -123,7 +125,11 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     } else if (selectedGroup === '🌿 Ecology & Wetlands') {
       matchGroup = ['ramsar_sites', 'national_parks', 'tiger_reserves', 'biosphere_reserves'].includes(t.id);
     } else if (selectedGroup === '🏛️ History & Culture') {
-      matchGroup = ['unesco_world_heritage', 'harappan_sites', 'classical_dances', 'major_ports', 'mountain_passes'].includes(t.id);
+      matchGroup = ['unesco_world_heritage', 'harappan_sites', 'classical_dances', 'major_ports'].includes(t.id);
+    } else if (selectedGroup === '🌳 Parks & Wildlife') {
+      matchGroup = ['national_parks', 'tiger_reserves', 'biosphere_reserves', 'ssc_national_parks', 'ssc_tiger_reserves'].includes(t.id);
+    } else if (selectedGroup === '🏔️ Passes & Rivers') {
+      matchGroup = ['mountain_passes', 'ssc_mountain_passes', 'ssc_major_rivers', 'major_dams', 'ssc_major_dams'].includes(t.id) || t.title.toLowerCase().includes('river');
     }
 
     const matchSearch =
@@ -198,10 +204,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </div>
           <div>
             <span className="font-serif-title font-bold text-lg tracking-tight block leading-tight">
-              UPSC Map Trainer
+              India Map Trainer
             </span>
             <span className="text-[10px] text-[#1F3A4D]/60 font-semibold tracking-wide uppercase">
-              100% Offline · Equirectangular Canvas
+              SSC · Railway · One-Day Exams
             </span>
           </div>
         </div>
