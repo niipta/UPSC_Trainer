@@ -131,7 +131,7 @@ Both workflows upload their artifacts separately. See [docs/APP_ARCHITECTURE.md]
    - Coordinate bounding checks ($6^\circ\text{N} - 38^\circ\text{N}$, $67^\circ\text{E} - 98^\circ\text{E}$).
    - Ray-casting point-in-polygon validation against India's state boundaries.
    - Category integrity and duplicate place detection.
-   - Synchronizes `assets/topics.json`, `app/src/main/assets/topics.json`, and `public/topics.json`.
+   - Synchronizes all five web, Kotlin and Capacitor copies: `src/data/topics.json`, `assets/topics.json`, `public/topics.json`, `app/src/main/assets/topics.json`, and `android/app/src/main/assets/public/topics.json`.
 
 ---
 
