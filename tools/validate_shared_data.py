@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,7 +21,29 @@ def fail(message: str) -> None:
     raise SystemExit(f"DATA VALIDATION FAILED: {message}")
 
 
+def validate_application_ids() -> None:
+    native_gradle = (ROOT / "app/build.gradle.kts").read_text(encoding="utf-8")
+    capacitor_gradle = (ROOT / "android/app/build.gradle").read_text(encoding="utf-8")
+    capacitor_config = json.loads((ROOT / "capacitor.config.json").read_text(encoding="utf-8"))
+
+    native_match = re.search(r'applicationId\\s*=\\s*"([^"]+)"', native_gradle)
+    capacitor_match = re.search(r'applicationId\\s+"([^"]+)"', capacitor_gradle)
+    configured_id = capacitor_config.get("appId")
+
+    if not native_match or not capacitor_match:
+        fail("could not read both Android application IDs")
+    native_id = native_match.group(1)
+    capacitor_id = capacitor_match.group(1)
+    if not isinstance(configured_id, str) or not configured_id:
+        fail("capacitor.config.json must define a non-empty appId")
+    if capacitor_id != configured_id:
+        fail(f"Capacitor Gradle app ID ({capacitor_id}) does not match capacitor.config.json ({configured_id})")
+    if native_id == capacitor_id:
+        fail("native Kotlin and Capacitor Android app IDs must differ so both apps can be installed side by side")
+
+
 def main() -> None:
+    validate_application_ids()
     missing = [str(path.relative_to(ROOT)) for path in DATA_PATHS if not path.is_file()]
     if missing:
         fail("missing topic data copies: " + ", ".join(missing))
