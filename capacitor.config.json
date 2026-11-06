@@ -1,6 +1,6 @@
 {
-  "appId": "com.upsc.maptrainer",
-  "appName": "UPSC Map Trainer",
+  "appId": "com.upsc.maptrainer.web",
+  "appName": "UPSC Map Trainer Web",
   "webDir": "dist",
   "bundledWebRuntime": false,
   "plugins": {

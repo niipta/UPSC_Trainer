@@ -1,8 +1,8 @@
 # UPSC Map Trainer 🗺️🇮🇳
 
-> **100% Offline, interactive India map trainer and quiz application for UPSC Civil Services Examination (CSE Prelims & Mains) geography preparation.**
+> **A dual-platform India geography learning suite for UPSC Civil Services aspirants, with a Kotlin native Android app and a feature-rich React web app.**
 
-Built with **Kotlin + Jetpack Compose (Material 3)** for Android (minSdk 26, targetSdk 35) and fully interactive in the web preview emulator. Zero map tiles, zero network calls, zero API keys.
+The native Android app uses **Kotlin + Jetpack Compose (Material 3)** (minSdk 26, targetSdk 35); the web app uses **React + TypeScript + Vite**, with an optional Capacitor Android package. The native map renderer does not require remote map tiles or a map API key.
 
 ---
 
@@ -12,7 +12,7 @@ Built with **Kotlin + Jetpack Compose (Material 3)** for Android (minSdk 26, tar
    - Projection: $x = (\text{lon} - 67.5) \times \cos(22^\circ)$, $y = 38 - \text{lat}$.
    - Simplified India state and UT boundaries (~109 KB GeoJSON with Douglas-Peucker $\approx 0.02^\circ$ tolerance).
    - Highlighting for state polygons, dynamic pulsing marker halos, touch pinch-zoom ($0.9\times$ to $16\times$), smooth pan, and automated camera gliding animations.
-2. **16 High-Yield UPSC Map Topics (226 Verified Places)**:
+2. **16 High-Yield UPSC Map Topics (226 Catalogue Entries)**:
    - Coal & Lignite Fields
    - Oil & Gas Fields (Onshore & Offshore)
    - Oil Refineries (PSU, Private, JV)
@@ -47,31 +47,67 @@ Built with **Kotlin + Jetpack Compose (Material 3)** for Android (minSdk 26, tar
 
 ## 🛠️ Build & Installation
 
-### Android Studio / Command Line Build
+This repository contains two separate app implementations. The Kotlin app under `app/` is not the same Android target as the React/Capacitor wrapper under `android/`.
 
-1. **Prerequisites**:
-   - JDK 17
-   - Android SDK 35
-   - Gradle 8.9 (via wrapper)
+### 1. React web application
 
-2. **Assemble APK**:
-   ```bash
-   # Debug APK
-   ./gradlew assembleDebug
+Prerequisites: Node.js 22.
 
-   # Release APK (R8 minified & shrinkResources enabled, signed with debug keystore)
-   ./gradlew assembleRelease
-   ```
-   APKs are generated in `app/build/outputs/apk/debug/` and `app/build/outputs/apk/release/`.
+```bash
+npm install
+npm run lint
+npm run build
+```
 
-3. **Run JVM Unit Tests**:
-   ```bash
-   ./gradlew test
-   ```
-   Executes `QuizEngineTest.kt` verifying tens of thousands of generated questions.
+The production web bundle is written to `dist/`.
 
-### Automated GitHub Actions CI
-The workflow in `.github/workflows/build-apk.yml` automatically triggers on push to `main`, compiles both debug and release APKs with JDK 17, and uploads them as download artifacts.
+### 2. Native Kotlin Android application
+
+Prerequisites: JDK 17, Android SDK 35, and Gradle 8.9.
+
+```bash
+# Run the native Kotlin quiz-engine tests
+gradle :app:testDebugUnitTest
+
+# Build the native debug APK
+gradle :app:assembleDebug
+```
+
+The native APK is written to `app/build/outputs/apk/debug/`.
+
+Note: the root Gradle wrapper JAR is not currently committed, so use Android Studio's Gradle sync or an installed Gradle 8.9 command until the wrapper is regenerated.
+
+### 3. React application packaged for Android (Capacitor)
+
+Prerequisites: Node.js 22 and JDK 21.
+
+```bash
+npm install
+npm run build
+npx cap sync android
+cd android
+./gradlew assembleDebug
+./gradlew bundleRelease
+```
+
+This package is a WebView wrapper around the React app; it is distinct from the Kotlin native app.
+
+### Shared topic-data validation
+
+The topic catalogue is copied into web, native and Capacitor asset directories. After editing topic data, run:
+
+```bash
+python3 tools/validate_shared_data.py
+```
+
+This checks JSON structure, required fields, duplicate IDs/names, coordinate ranges, category membership and exact parity across all five copies. It does not independently verify geographical facts or coordinate accuracy.
+
+### Automated GitHub Actions
+
+- `.github/workflows/build-apk.yml`: Kotlin unit tests + native Android debug APK.
+- `.github/workflows/build-android.yml`: React type-check/build + Capacitor Android debug APK and release AAB.
+
+Both workflows upload their artifacts separately. See [docs/APP_ARCHITECTURE.md](docs/APP_ARCHITECTURE.md) for the platform boundaries and current limitations.
 
 ---
 
@@ -95,7 +131,7 @@ The workflow in `.github/workflows/build-apk.yml` automatically triggers on push
    - Coordinate bounding checks ($6^\circ\text{N} - 38^\circ\text{N}$, $67^\circ\text{E} - 98^\circ\text{E}$).
    - Ray-casting point-in-polygon validation against India's state boundaries.
    - Category integrity and duplicate place detection.
-   - Synchronizes `assets/topics.json`, `app/src/main/assets/topics.json`, and `public/topics.json`.
+   - Synchronizes all five web, Kotlin and Capacitor copies: `src/data/topics.json`, `assets/topics.json`, `public/topics.json`, `app/src/main/assets/topics.json`, and `android/app/src/main/assets/public/topics.json`.
 
 ---
 

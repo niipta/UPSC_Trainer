@@ -1,0 +1,1011 @@
+[
+  {
+    "id": "polity_constitution",
+    "subject": "Indian Polity",
+    "title": "Constitution: Preamble & Fundamental Rights",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "Banking",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "pol-01",
+        "q": "Which part of the Constitution contains the Fundamental Rights?",
+        "o": [
+          "Part II",
+          "Part III",
+          "Part IV",
+          "Part IVA"
+        ],
+        "a": 1,
+        "e": "Fundamental Rights are contained in Part III (Articles 12–35).",
+        "src": "Constitution of India, Part III — Legislative Department, Government of India",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "pol-02",
+        "q": "The idea of the Directive Principles of State Policy was borrowed from the Constitution of which country?",
+        "o": [
+          "United States",
+          "Canada",
+          "Ireland",
+          "Australia"
+        ],
+        "a": 2,
+        "e": "The Directive Principles were inspired by the Irish Constitution of 1937.",
+        "src": "NCERT, Indian Constitution at Work; Constitution of India, Part IV",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "pol-03",
+        "q": "Which Article guarantees equality before the law and equal protection of the laws?",
+        "o": [
+          "Article 14",
+          "Article 19",
+          "Article 21",
+          "Article 32"
+        ],
+        "a": 0,
+        "e": "Article 14 guarantees equality before the law and equal protection of the laws within India.",
+        "src": "Constitution of India, Article 14",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "pol-04",
+        "q": "Who described the Right to Constitutional Remedies as the 'heart and soul' of the Constitution?",
+        "o": [
+          "Jawaharlal Nehru",
+          "B. R. Ambedkar",
+          "Rajendra Prasad",
+          "Sardar Patel"
+        ],
+        "a": 1,
+        "e": "Dr. B. R. Ambedkar used this description for Article 32 in the Constituent Assembly.",
+        "src": "Constituent Assembly Debates; Constitution of India, Article 32",
+        "url": "https://sansad.in/"
+      },
+      {
+        "id": "pol-05",
+        "q": "Fundamental Duties are listed in which part of the Constitution?",
+        "o": [
+          "Part III",
+          "Part IV",
+          "Part IVA",
+          "Part V"
+        ],
+        "a": 2,
+        "e": "Part IVA contains Article 51A, which lists Fundamental Duties. They were added by the 42nd Amendment Act, 1976.",
+        "src": "Constitution of India, Part IVA; 42nd Amendment Act, 1976",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      }
+    ]
+  },
+  {
+    "id": "history_modern",
+    "subject": "History",
+    "title": "Modern India: National Movement",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "his-01",
+        "q": "The Indian National Congress was founded in which year?",
+        "o": [
+          "1885",
+          "1887",
+          "1905",
+          "1911"
+        ],
+        "a": 0,
+        "e": "The INC was founded in December 1885. Its first session was held in Bombay under the presidency of W. C. Bonnerjee.",
+        "src": "NCERT, Themes in Indian History; Indian National Congress historical records",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "his-02",
+        "q": "Who was the first president of the Indian National Congress?",
+        "o": [
+          "Dadabhai Naoroji",
+          "A. O. Hume",
+          "W. C. Bonnerjee",
+          "Surendranath Banerjee"
+        ],
+        "a": 2,
+        "e": "Womesh Chandra Bonnerjee presided over the first INC session in 1885.",
+        "src": "Indian National Congress historical records",
+        "url": "https://inc.in/"
+      },
+      {
+        "id": "his-03",
+        "q": "The Partition of Bengal announced in 1905 was carried out during the tenure of which Viceroy?",
+        "o": [
+          "Lord Curzon",
+          "Lord Minto",
+          "Lord Hardinge",
+          "Lord Ripon"
+        ],
+        "a": 0,
+        "e": "Lord Curzon announced the partition of Bengal in 1905; it was annulled in 1911.",
+        "src": "NCERT, Themes in Indian History",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "his-04",
+        "q": "The Dandi March (Salt March) began in which year?",
+        "o": [
+          "1920",
+          "1928",
+          "1930",
+          "1942"
+        ],
+        "a": 2,
+        "e": "Gandhi began the Salt March from Sabarmati Ashram on 12 March 1930, reaching Dandi in April.",
+        "src": "National Gandhi Museum; NCERT",
+        "url": "https://www.gandhimuseum.org/"
+      },
+      {
+        "id": "his-05",
+        "q": "The Quit India Movement was launched in which year?",
+        "o": [
+          "1930",
+          "1935",
+          "1940",
+          "1942"
+        ],
+        "a": 3,
+        "e": "The Quit India resolution was adopted at Bombay on 8 August 1942; the mass movement began the next day.",
+        "src": "NCERT, Themes in Indian History",
+        "url": "https://ncert.nic.in/"
+      }
+    ]
+  },
+  {
+    "id": "science_biology",
+    "subject": "General Science",
+    "title": "Biology: Human Body & Nutrition",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "Banking",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "bio-01",
+        "q": "Which blood cells are primarily responsible for transporting oxygen?",
+        "o": [
+          "White blood cells",
+          "Red blood cells",
+          "Platelets",
+          "Plasma cells"
+        ],
+        "a": 1,
+        "e": "Red blood cells contain haemoglobin, which binds and transports oxygen.",
+        "src": "NCERT, Biology textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "bio-02",
+        "q": "Which vitamin is essential for normal blood clotting?",
+        "o": [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        "a": 3,
+        "e": "Vitamin K is required for the synthesis of several proteins involved in blood coagulation.",
+        "src": "NCERT, Biology textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "bio-03",
+        "q": "The functional unit of the kidney is the:",
+        "o": [
+          "Neuron",
+          "Nephron",
+          "Alveolus",
+          "Villus"
+        ],
+        "a": 1,
+        "e": "Each kidney contains nephrons that filter blood and help form urine.",
+        "src": "NCERT, Biology textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "bio-04",
+        "q": "Which organ produces insulin?",
+        "o": [
+          "Liver",
+          "Pancreas",
+          "Thyroid",
+          "Adrenal gland"
+        ],
+        "a": 1,
+        "e": "Beta cells in the islets of Langerhans in the pancreas secrete insulin.",
+        "src": "NCERT, Biology textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "bio-05",
+        "q": "Deficiency of which vitamin causes scurvy?",
+        "o": [
+          "Vitamin B1",
+          "Vitamin B12",
+          "Vitamin C",
+          "Vitamin D"
+        ],
+        "a": 2,
+        "e": "Vitamin C deficiency causes scurvy, which can involve bleeding gums and poor wound healing.",
+        "src": "NCERT, Biology textbooks",
+        "url": "https://ncert.nic.in/"
+      }
+    ]
+  },
+  {
+    "id": "economy_basics",
+    "subject": "Economy",
+    "title": "Indian Economy: Core Concepts",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "Banking",
+      "State PCS"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "eco-01",
+        "q": "Which institution is India's central bank?",
+        "o": [
+          "SEBI",
+          "NABARD",
+          "Reserve Bank of India",
+          "State Bank of India"
+        ],
+        "a": 2,
+        "e": "The Reserve Bank of India is the country's central bank and performs monetary and regulatory functions.",
+        "src": "RBI — About Us",
+        "url": "https://www.rbi.org.in/"
+      },
+      {
+        "id": "eco-02",
+        "q": "GDP at market prices measures the value of:",
+        "o": [
+          "Only agricultural output",
+          "Final goods and services produced within domestic territory",
+          "Only exports",
+          "All intermediate goods separately"
+        ],
+        "a": 1,
+        "e": "GDP measures the value of final goods and services produced within a country's domestic territory during a period.",
+        "src": "MoSPI — National Accounts Statistics",
+        "url": "https://www.mospi.gov.in/"
+      },
+      {
+        "id": "eco-03",
+        "q": "Which tax is generally classified as an indirect tax in India?",
+        "o": [
+          "Personal income tax",
+          "Corporation tax",
+          "Goods and Services Tax",
+          "Capital gains tax"
+        ],
+        "a": 2,
+        "e": "GST is an indirect, destination-based tax levied on the supply of goods and services.",
+        "src": "GST Council — About GST",
+        "url": "https://gstcouncil.gov.in/"
+      },
+      {
+        "id": "eco-04",
+        "q": "The annual Union Budget is constitutionally referred to as the:",
+        "o": [
+          "Finance Statement",
+          "Annual Financial Statement",
+          "Economic Survey",
+          "Consolidated Account"
+        ],
+        "a": 1,
+        "e": "Article 112 refers to the annual financial statement of estimated receipts and expenditure of the Government of India.",
+        "src": "Constitution of India, Article 112",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "eco-05",
+        "q": "Repo rate is the rate at which:",
+        "o": [
+          "Banks lend to customers",
+          "RBI lends short-term funds to banks against eligible securities",
+          "Government lends to RBI",
+          "Banks lend to one another without collateral"
+        ],
+        "a": 1,
+        "e": "The repo rate is the policy rate at which the RBI provides liquidity to banks against eligible collateral under the repo framework.",
+        "src": "RBI — Monetary Policy",
+        "url": "https://www.rbi.org.in/"
+      }
+    ]
+  },
+  {
+    "id": "banking_awareness",
+    "subject": "Banking Awareness",
+    "title": "Banking: RBI & Financial System",
+    "examTags": [
+      "Banking",
+      "SSC",
+      "Railway",
+      "State PCS"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "bank-01",
+        "q": "The Reserve Bank of India began operations on:",
+        "o": [
+          "1 April 1935",
+          "1 January 1949",
+          "15 August 1947",
+          "1 April 1950"
+        ],
+        "a": 0,
+        "e": "RBI commenced operations on 1 April 1935 under the RBI Act, 1934. It was nationalised in 1949.",
+        "src": "RBI — History",
+        "url": "https://www.rbi.org.in/"
+      },
+      {
+        "id": "bank-02",
+        "q": "Which body regulates the securities market in India?",
+        "o": [
+          "RBI",
+          "SEBI",
+          "IRDAI",
+          "PFRDA"
+        ],
+        "a": 1,
+        "e": "The Securities and Exchange Board of India (SEBI) regulates the securities market and protects investors.",
+        "src": "SEBI — About SEBI",
+        "url": "https://www.sebi.gov.in/"
+      },
+      {
+        "id": "bank-03",
+        "q": "NEFT stands for:",
+        "o": [
+          "National Electronic Funds Transfer",
+          "National Exchange Finance Transaction",
+          "New Electronic Fund Terminal",
+          "National Easy Finance Transfer"
+        ],
+        "a": 0,
+        "e": "NEFT is a nationwide centralised payment system operated by the RBI for transferring funds electronically.",
+        "src": "RBI — NEFT",
+        "url": "https://www.rbi.org.in/"
+      },
+      {
+        "id": "bank-04",
+        "q": "Which institution is primarily associated with agricultural and rural development finance?",
+        "o": [
+          "EXIM Bank",
+          "NABARD",
+          "SIDBI",
+          "NHB"
+        ],
+        "a": 1,
+        "e": "NABARD is the apex development financial institution for agriculture and rural development.",
+        "src": "NABARD — About Us",
+        "url": "https://www.nabard.org/"
+      },
+      {
+        "id": "bank-05",
+        "q": "DICGC deposit insurance currently covers eligible deposits up to what amount per depositor per bank, including principal and interest?",
+        "o": [
+          "₹1 lakh",
+          "₹2 lakh",
+          "₹5 lakh",
+          "₹10 lakh"
+        ],
+        "a": 2,
+        "e": "DICGC insurance cover is up to ₹5 lakh per depositor per bank, including principal and interest, subject to the applicable rules.",
+        "src": "DICGC — A Guide to Deposit Insurance",
+        "url": "https://www.dicgc.org.in/"
+      }
+    ]
+  },
+  {
+    "id": "computer_awareness",
+    "subject": "Computer Awareness",
+    "title": "Computer Fundamentals & Digital India",
+    "examTags": [
+      "Banking",
+      "SSC",
+      "Railway",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "com-01",
+        "q": "Which memory is volatile?",
+        "o": [
+          "ROM",
+          "Hard disk",
+          "RAM",
+          "DVD"
+        ],
+        "a": 2,
+        "e": "RAM is volatile memory: its contents are lost when power is switched off.",
+        "src": "NIELIT — Digital Literacy resources",
+        "url": "https://www.nielit.gov.in/"
+      },
+      {
+        "id": "com-02",
+        "q": "What does URL stand for?",
+        "o": [
+          "Uniform Resource Locator",
+          "Universal Record Link",
+          "Unified Routing Language",
+          "User Reference Location"
+        ],
+        "a": 0,
+        "e": "URL means Uniform Resource Locator, the address used to locate a resource on the web.",
+        "src": "MDN Web Docs — What is a URL?",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL"
+      },
+      {
+        "id": "com-03",
+        "q": "Which of these is an operating system?",
+        "o": [
+          "Oracle",
+          "Linux",
+          "Python",
+          "HTML"
+        ],
+        "a": 1,
+        "e": "Linux is an operating system kernel and forms the basis of many Linux distributions.",
+        "src": "The Linux Kernel Archives",
+        "url": "https://www.kernel.org/"
+      },
+      {
+        "id": "com-04",
+        "q": "In a spreadsheet, a formula generally begins with which symbol?",
+        "o": [
+          "#",
+          "@",
+          "=",
+          "&"
+        ],
+        "a": 2,
+        "e": "In common spreadsheet applications such as LibreOffice Calc and Excel, formulas begin with an equals sign.",
+        "src": "LibreOffice Calc Guide",
+        "url": "https://help.libreoffice.org/"
+      },
+      {
+        "id": "com-05",
+        "q": "Phishing is best described as:",
+        "o": [
+          "A method of compressing files",
+          "A fraudulent attempt to obtain sensitive information by impersonation",
+          "A hardware upgrade",
+          "A data backup method"
+        ],
+        "a": 1,
+        "e": "Phishing uses deceptive messages or websites to trick people into revealing credentials or other sensitive information.",
+        "src": "CERT-In — Cyber Security Awareness",
+        "url": "https://www.cert-in.org.in/"
+      }
+    ]
+  },
+  {
+    "id": "polity_parliament",
+    "subject": "Indian Polity",
+    "title": "Parliament & Constitutional Bodies",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "Banking",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "polp-01",
+        "q": "A Money Bill can be introduced only in which House of Parliament?",
+        "o": [
+          "Lok Sabha",
+          "Rajya Sabha",
+          "Either House",
+          "Joint sitting"
+        ],
+        "a": 0,
+        "e": "A Money Bill can be introduced only in the Lok Sabha, on the President's recommendation.",
+        "src": "Constitution of India, Article 109",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "polp-02",
+        "q": "Who presides over a joint sitting of the two Houses of Parliament?",
+        "o": [
+          "President",
+          "Vice-President",
+          "Speaker of Lok Sabha",
+          "Chief Justice of India"
+        ],
+        "a": 2,
+        "e": "The Speaker of the Lok Sabha presides over a joint sitting; in the Speaker's absence, the Deputy Speaker or another prescribed person presides.",
+        "src": "Constitution of India, Article 118(4)",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "polp-03",
+        "q": "The Comptroller and Auditor General of India is appointed by the:",
+        "o": [
+          "Prime Minister",
+          "President",
+          "Chief Justice of India",
+          "Parliament"
+        ],
+        "a": 1,
+        "e": "The CAG is appointed by the President by warrant under his hand and seal.",
+        "src": "Constitution of India, Article 148",
+        "url": "https://cag.gov.in/"
+      },
+      {
+        "id": "polp-04",
+        "q": "The Election Commission of India is provided for under:",
+        "o": [
+          "Article 280",
+          "Article 324",
+          "Article 356",
+          "Article 368"
+        ],
+        "a": 1,
+        "e": "Article 324 vests the superintendence, direction and control of elections in the Election Commission.",
+        "src": "Constitution of India, Article 324",
+        "url": "https://eci.gov.in/"
+      },
+      {
+        "id": "polp-05",
+        "q": "What is the normal term of the Lok Sabha, unless sooner dissolved?",
+        "o": [
+          "4 years",
+          "5 years",
+          "6 years",
+          "7 years"
+        ],
+        "a": 1,
+        "e": "The normal duration is five years from the date appointed for its first meeting, unless sooner dissolved; during a National Emergency it may be extended by law within constitutional limits.",
+        "src": "Constitution of India, Article 83",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      }
+    ]
+  },
+  {
+    "id": "history_ancient",
+    "subject": "History",
+    "title": "Ancient India: Indus Valley & Buddhism",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "his-a01",
+        "q": "The Great Bath was discovered at which Harappan site?",
+        "o": [
+          "Harappa",
+          "Mohenjo-daro",
+          "Dholavira",
+          "Lothal"
+        ],
+        "a": 1,
+        "e": "The Great Bath is a major structure at Mohenjo-daro in present-day Pakistan.",
+        "src": "NCERT, Our Pasts / Themes in Indian History",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "his-a02",
+        "q": "Which Harappan site is especially associated with an ancient dockyard?",
+        "o": [
+          "Lothal",
+          "Kalibangan",
+          "Rakhigarhi",
+          "Banawali"
+        ],
+        "a": 0,
+        "e": "Lothal in Gujarat is widely associated in textbooks with a dockyard-like basin and maritime trade.",
+        "src": "Archaeological Survey of India; NCERT",
+        "url": "https://asi.nic.in/"
+      },
+      {
+        "id": "his-a03",
+        "q": "The 24th Tirthankara of Jainism was:",
+        "o": [
+          "Rishabhanatha",
+          "Parshvanatha",
+          "Mahavira",
+          "Neminatha"
+        ],
+        "a": 2,
+        "e": "Mahavira is regarded as the 24th Tirthankara in Jain tradition.",
+        "src": "NCERT history resources",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "his-a04",
+        "q": "Gautama Buddha delivered his first sermon at:",
+        "o": [
+          "Bodh Gaya",
+          "Sarnath",
+          "Kushinagar",
+          "Lumbini"
+        ],
+        "a": 1,
+        "e": "The first sermon, traditionally called Dharmachakra Pravartana, was delivered at Sarnath near Varanasi.",
+        "src": "NCERT history resources; Archaeological Survey of India",
+        "url": "https://asi.nic.in/"
+      },
+      {
+        "id": "his-a05",
+        "q": "The Fourth Buddhist Council under Kanishka is traditionally associated with:",
+        "o": [
+          "Pataliputra",
+          "Vaishali",
+          "Kundalvana in Kashmir",
+          "Rajgir"
+        ],
+        "a": 2,
+        "e": "The Fourth Buddhist Council is traditionally associated with Kashmir during the reign of Kanishka; accounts vary across Buddhist traditions.",
+        "src": "NCERT history resources",
+        "url": "https://ncert.nic.in/"
+      }
+    ]
+  },
+  {
+    "id": "geography_physical",
+    "subject": "Geography",
+    "title": "Indian Physical Geography & Climate",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "geo-p01",
+        "q": "Which is the oldest mountain range in India?",
+        "o": [
+          "Himalaya",
+          "Aravalli",
+          "Western Ghats",
+          "Satpura"
+        ],
+        "a": 1,
+        "e": "The Aravalli range is among the oldest fold mountain systems in the world and is highly denuded.",
+        "src": "NCERT, India: Physical Environment",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "geo-p02",
+        "q": "The Tropic of Cancer passes through how many Indian states?",
+        "o": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "a": 2,
+        "e": "The Tropic of Cancer crosses eight Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+        "src": "Survey of India; NCERT",
+        "url": "https://surveyofindia.gov.in/"
+      },
+      {
+        "id": "geo-p03",
+        "q": "Which soil is generally considered most suitable for cotton cultivation?",
+        "o": [
+          "Laterite soil",
+          "Black soil",
+          "Mountain soil",
+          "Desert soil"
+        ],
+        "a": 1,
+        "e": "Regur or black soil has high clay content and moisture-retention capacity and is traditionally associated with cotton cultivation.",
+        "src": "NCERT, India: Physical Environment",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "geo-p04",
+        "q": "The southwest monsoon normally reaches Kerala around:",
+        "o": [
+          "Early June",
+          "Early April",
+          "Late July",
+          "Early September"
+        ],
+        "a": 0,
+        "e": "The southwest monsoon typically sets in over Kerala around the beginning of June, though the exact date varies each year.",
+        "src": "India Meteorological Department",
+        "url": "https://mausam.imd.gov.in/"
+      },
+      {
+        "id": "geo-p05",
+        "q": "Which pass connects the Kashmir Valley with Ladakh by road?",
+        "o": [
+          "Nathu La",
+          "Zoji La",
+          "Shipki La",
+          "Bomdi La"
+        ],
+        "a": 1,
+        "e": "Zoji La lies on the Srinagar–Leh route and connects the Kashmir Valley with the Ladakh region.",
+        "src": "Border Roads Organisation",
+        "url": "https://bro.gov.in/"
+      }
+    ]
+  },
+  {
+    "id": "science_physics",
+    "subject": "General Science",
+    "title": "Physics: Motion, Light & Electricity",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "phy-01",
+        "q": "The SI unit of force is:",
+        "o": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Pascal"
+        ],
+        "a": 2,
+        "e": "Force is measured in newtons (N), equivalent to kg·m/s².",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "phy-02",
+        "q": "Which mirror is commonly used as a rear-view mirror in vehicles?",
+        "o": [
+          "Plane",
+          "Concave",
+          "Convex",
+          "Cylindrical"
+        ],
+        "a": 2,
+        "e": "A convex mirror provides a wider field of view and forms erect, diminished images.",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "phy-03",
+        "q": "The speed of light in vacuum is approximately:",
+        "o": [
+          "3 × 10⁶ m/s",
+          "3 × 10⁸ m/s",
+          "3 × 10¹⁰ m/s",
+          "3 × 10⁴ m/s"
+        ],
+        "a": 1,
+        "e": "The speed of light in vacuum is exactly 299,792,458 metres per second; 3 × 10⁸ m/s is the common approximation.",
+        "src": "NIST — Fundamental Physical Constants",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      },
+      {
+        "id": "phy-04",
+        "q": "Which instrument measures electric current?",
+        "o": [
+          "Voltmeter",
+          "Ammeter",
+          "Barometer",
+          "Hygrometer"
+        ],
+        "a": 1,
+        "e": "An ammeter measures electric current and is connected in series in a simple circuit.",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "phy-05",
+        "q": "Sound cannot travel through:",
+        "o": [
+          "Water",
+          "Steel",
+          "Air",
+          "Vacuum"
+        ],
+        "a": 3,
+        "e": "Sound is a mechanical wave and requires a material medium; it cannot propagate through a vacuum.",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      }
+    ]
+  },
+  {
+    "id": "science_chemistry",
+    "subject": "General Science",
+    "title": "Chemistry: Elements, Acids & Everyday Science",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "chem-01",
+        "q": "A solution with pH less than 7 is generally:",
+        "o": [
+          "Acidic",
+          "Basic",
+          "Neutral",
+          "Always saline"
+        ],
+        "a": 0,
+        "e": "At standard reference conditions, pH below 7 indicates an acidic solution.",
+        "src": "NCERT Chemistry textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "chem-02",
+        "q": "The chemical symbol Na stands for:",
+        "o": [
+          "Nitrogen",
+          "Sodium",
+          "Neon",
+          "Nickel"
+        ],
+        "a": 1,
+        "e": "Na is the symbol for sodium, derived from the Latin name natrium.",
+        "src": "IUPAC Periodic Table",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      },
+      {
+        "id": "chem-03",
+        "q": "Which gas is commonly filled in electric bulbs to reduce evaporation of the filament?",
+        "o": [
+          "Oxygen",
+          "Hydrogen",
+          "Argon",
+          "Carbon dioxide"
+        ],
+        "a": 2,
+        "e": "Argon, an inert gas, is commonly used in incandescent bulbs to reduce filament evaporation.",
+        "src": "NCERT Chemistry textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "chem-04",
+        "q": "Rusting of iron requires oxygen and:",
+        "o": [
+          "Nitrogen",
+          "Moisture",
+          "Helium",
+          "Methane"
+        ],
+        "a": 1,
+        "e": "Rusting is an electrochemical corrosion process that requires oxygen and water.",
+        "src": "NCERT Chemistry textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "chem-05",
+        "q": "Which of the following is a noble gas?",
+        "o": [
+          "Chlorine",
+          "Nitrogen",
+          "Helium",
+          "Hydrogen"
+        ],
+        "a": 2,
+        "e": "Helium belongs to Group 18, the noble gases, and is chemically very unreactive.",
+        "src": "IUPAC Periodic Table",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ]
+  },
+  {
+    "id": "static_gk_india",
+    "subject": "Static GK",
+    "title": "India: National Symbols & Institutions",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "Banking",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "gk-01",
+        "q": "India's national anthem was written by:",
+        "o": [
+          "Bankim Chandra Chatterjee",
+          "Rabindranath Tagore",
+          "Sarojini Naidu",
+          "Muhammad Iqbal"
+        ],
+        "a": 1,
+        "e": "Jana Gana Mana was composed by Rabindranath Tagore; its Hindi version was adopted as the national anthem on 24 January 1950.",
+        "src": "National Portal of India",
+        "url": "https://knowindia.india.gov.in/"
+      },
+      {
+        "id": "gk-02",
+        "q": "The national song of India is:",
+        "o": [
+          "Vande Mataram",
+          "Saare Jahan Se Achha",
+          "Jana Gana Mana",
+          "Ae Mere Watan"
+        ],
+        "a": 0,
+        "e": "Vande Mataram, written by Bankim Chandra Chatterjee, has the status of the national song.",
+        "src": "National Portal of India",
+        "url": "https://knowindia.india.gov.in/"
+      },
+      {
+        "id": "gk-03",
+        "q": "Where is the headquarters of the ISRO located?",
+        "o": [
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru",
+          "New Delhi"
+        ],
+        "a": 2,
+        "e": "ISRO headquarters is in Bengaluru, Karnataka.",
+        "src": "ISRO — Organisation",
+        "url": "https://www.isro.gov.in/"
+      },
+      {
+        "id": "gk-04",
+        "q": "The Constitution of India was adopted by the Constituent Assembly on:",
+        "o": [
+          "15 August 1947",
+          "26 November 1949",
+          "26 January 1950",
+          "2 October 1950"
+        ],
+        "a": 1,
+        "e": "The Constituent Assembly adopted the Constitution on 26 November 1949; it came into force on 26 January 1950.",
+        "src": "Constitution of India; National Portal of India",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "gk-05",
+        "q": "The headquarters of the Supreme Court of India is in:",
+        "o": [
+          "Mumbai",
+          "Kolkata",
+          "New Delhi",
+          "Prayagraj"
+        ],
+        "a": 2,
+        "e": "The Supreme Court of India is located in New Delhi.",
+        "src": "Supreme Court of India",
+        "url": "https://www.sci.gov.in/"
+      }
+    ]
+  }
+]

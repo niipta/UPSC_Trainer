@@ -4,6 +4,7 @@ import math
 import os
 import sys
 from topics_data import TOPICS
+from ssc_topics_data import SSC_TOPICS
 
 def point_in_polygon(x, y, poly):
     """Ray-casting algorithm to test if point (x,y)=(lon,lat) is inside polygon."""
@@ -44,7 +45,7 @@ def main():
 
     compiled_topics = []
 
-    for topic in TOPICS:
+    for topic in TOPICS + SSC_TOPICS:
         t_id = topic["id"]
         t_cats = set(topic["categories"])
         seen_places = set()
@@ -133,7 +134,9 @@ def main():
     out_paths = [
         "assets/topics.json",
         "app/src/main/assets/topics.json",
-        "public/topics.json"
+        "public/topics.json",
+        "src/data/topics.json",
+        "android/app/src/main/assets/public/topics.json"
     ]
     for p in out_paths:
         os.makedirs(os.path.dirname(p), exist_ok=True)

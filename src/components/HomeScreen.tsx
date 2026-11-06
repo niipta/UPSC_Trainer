@@ -56,6 +56,7 @@ interface HomeScreenProps {
   onOpenDidYouKnow?: () => void;
   onOpenPyqAtlas?: () => void;
   onOpenMainsCompendium?: () => void;
+  onOpenStudyLibrary?: () => void;
 }
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({
@@ -80,7 +81,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   onReviewFlashcard,
   onOpenDidYouKnow,
   onOpenPyqAtlas,
-  onOpenMainsCompendium
+  onOpenMainsCompendium,
+  onOpenStudyLibrary
 }) => {
   const [homeMode, setHomeMode] = useState<'LEARN' | 'TEST'>('LEARN');
   const [selectedGroup, setSelectedGroup] = useState<string>('All');
@@ -98,7 +100,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     '⚡ Coal & Energy',
     '🌊 Rivers & Dams',
     '🌿 Ecology & Wetlands',
-    '🏛️ History & Culture'
+    '🏛️ History & Culture',
+    '🌳 Parks & Wildlife',
+    '🏔️ Passes & Rivers'
   ];
 
   const rank = getRankForXp(rewards?.xp || 0);
@@ -119,11 +123,15 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
     if (selectedGroup === '⚡ Coal & Energy') {
       matchGroup = ['coal_fields', 'oil_refineries', 'nuclear_power', 'iron_ore', 'bauxite', 'copper_mines'].includes(t.id);
     } else if (selectedGroup === '🌊 Rivers & Dams') {
-      matchGroup = ['major_dams'].includes(t.id) || t.title.toLowerCase().includes('dam') || t.title.toLowerCase().includes('river');
+      matchGroup = ['major_dams', 'ssc_major_dams', 'ssc_major_rivers'].includes(t.id) || t.title.toLowerCase().includes('dam') || t.title.toLowerCase().includes('river');
     } else if (selectedGroup === '🌿 Ecology & Wetlands') {
       matchGroup = ['ramsar_sites', 'national_parks', 'tiger_reserves', 'biosphere_reserves'].includes(t.id);
     } else if (selectedGroup === '🏛️ History & Culture') {
-      matchGroup = ['unesco_world_heritage', 'harappan_sites', 'classical_dances', 'major_ports', 'mountain_passes'].includes(t.id);
+      matchGroup = ['unesco_world_heritage', 'harappan_sites', 'classical_dances', 'major_ports'].includes(t.id);
+    } else if (selectedGroup === '🌳 Parks & Wildlife') {
+      matchGroup = ['national_parks', 'tiger_reserves', 'biosphere_reserves', 'ssc_national_parks', 'ssc_tiger_reserves'].includes(t.id);
+    } else if (selectedGroup === '🏔️ Passes & Rivers') {
+      matchGroup = ['mountain_passes', 'ssc_mountain_passes', 'ssc_major_rivers', 'major_dams', 'ssc_major_dams'].includes(t.id) || t.title.toLowerCase().includes('river');
     }
 
     const matchSearch =
@@ -191,6 +199,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   return (
     <div className="min-h-screen bg-[#F7F2EA] text-[#1F3A4D] px-4 py-5 max-w-4xl mx-auto pb-28">
       {/* Top Banner Navigation Bar */}
+      {onOpenStudyLibrary && (
+        <button onClick={onOpenStudyLibrary} className="w-full mb-4 rounded-2xl bg-[#1F3A4D] text-white p-4 flex items-center justify-between shadow-md hover:shadow-lg transition">
+          <span className="text-left"><span className="block text-xs uppercase tracking-widest text-amber-300 font-bold">SSC · Railway · Banking · State exams</span><span className="block font-bold text-base mt-1">Open Study Library</span><span className="block text-xs text-white/70 mt-1">Topic-wise practice · explanations · references</span></span>
+          <BookOpen className="w-6 h-6 text-amber-300"/>
+        </button>
+      )}
+
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-xl bg-[#1F3A4D] flex items-center justify-center text-white text-lg shadow-sm">
@@ -198,10 +213,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </div>
           <div>
             <span className="font-serif-title font-bold text-lg tracking-tight block leading-tight">
-              UPSC Map Trainer
+              India Map Trainer
             </span>
             <span className="text-[10px] text-[#1F3A4D]/60 font-semibold tracking-wide uppercase">
-              100% Offline · Equirectangular Canvas
+              SSC · Railway · One-Day Exams
             </span>
           </div>
         </div>
