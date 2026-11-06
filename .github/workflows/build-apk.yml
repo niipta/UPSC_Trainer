@@ -30,7 +30,7 @@ jobs:
           node-version: '20'
 
       - name: Install NPM dependencies
-        run: npm ci --no-audit --no-fund
+        run: npm install --no-audit --no-fund
 
       - name: Build Web Application
         run: npm run build
