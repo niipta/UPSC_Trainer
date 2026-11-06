@@ -21,8 +21,9 @@ import { PYQAtlasScreen } from './components/PYQAtlasScreen';
 import { MainsCompendiumModal } from './components/MainsCompendiumModal';
 import initialStates from './data/india_states.json';
 import initialTopics from './data/topics.json';
+import { ExamLibraryScreen } from './components/ExamLibraryScreen';
 
-type ActiveScreen = 'HOME' | 'TOPIC_MAP' | 'QUIZ' | 'RESULT' | 'PYQ_ATLAS';
+type ActiveScreen = 'HOME' | 'TOPIC_MAP' | 'QUIZ' | 'RESULT' | 'PYQ_ATLAS' | 'EXAM_LIBRARY';
 
 const DEFAULT_REWARDS: UserRewards = {
   xp: 0,
@@ -444,8 +445,11 @@ export default function App() {
           onOpenDidYouKnow={() => setShowDidYouKnowPopup(true)}
           onOpenPyqAtlas={() => setScreen('PYQ_ATLAS')}
           onOpenMainsCompendium={() => setShowMainsCompendium(true)}
+          onOpenStudyLibrary={() => setScreen('EXAM_LIBRARY')}
         />
       )}
+
+      {screen === 'EXAM_LIBRARY' && <ExamLibraryScreen onBack={() => setScreen('HOME')} />}
 
       {screen === 'TOPIC_MAP' && currentTopic && (
         <TopicMapScreen
