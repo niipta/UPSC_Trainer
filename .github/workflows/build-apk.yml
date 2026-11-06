@@ -39,12 +39,14 @@ jobs:
         run: npx cap sync android
 
       - name: Grant execute permission for gradlew
-        run: chmod +x gradlew || true
+        run: chmod +x android/gradlew
 
       - name: Build Debug APK
+        working-directory: ./android
         run: ./gradlew assembleDebug --stacktrace
 
       - name: Build Play Store Android App Bundle (.aab)
+        working-directory: ./android
         run: ./gradlew bundleRelease --stacktrace
         continue-on-error: true
 
@@ -53,7 +55,7 @@ jobs:
         with:
           name: upsc-map-trainer-binaries
           path: |
-            app/build/outputs/apk/debug/*.apk
-            app/build/outputs/apk/release/*.apk
-            app/build/outputs/bundle/release/*.aab
-          if-no-files-found: warn
+            android/app/build/outputs/apk/debug/*.apk
+            android/app/build/outputs/apk/release/*.apk
+            android/app/build/outputs/bundle/release/*.aab
+          if-no-files-found: error
