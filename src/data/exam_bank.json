@@ -503,5 +503,509 @@
         "url": "https://www.cert-in.org.in/"
       }
     ]
+  },
+  {
+    "id": "polity_parliament",
+    "subject": "Indian Polity",
+    "title": "Parliament & Constitutional Bodies",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "Banking",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "polp-01",
+        "q": "A Money Bill can be introduced only in which House of Parliament?",
+        "o": [
+          "Lok Sabha",
+          "Rajya Sabha",
+          "Either House",
+          "Joint sitting"
+        ],
+        "a": 0,
+        "e": "A Money Bill can be introduced only in the Lok Sabha, on the President's recommendation.",
+        "src": "Constitution of India, Article 109",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "polp-02",
+        "q": "Who presides over a joint sitting of the two Houses of Parliament?",
+        "o": [
+          "President",
+          "Vice-President",
+          "Speaker of Lok Sabha",
+          "Chief Justice of India"
+        ],
+        "a": 2,
+        "e": "The Speaker of the Lok Sabha presides over a joint sitting; in the Speaker's absence, the Deputy Speaker or another prescribed person presides.",
+        "src": "Constitution of India, Article 118(4)",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "polp-03",
+        "q": "The Comptroller and Auditor General of India is appointed by the:",
+        "o": [
+          "Prime Minister",
+          "President",
+          "Chief Justice of India",
+          "Parliament"
+        ],
+        "a": 1,
+        "e": "The CAG is appointed by the President by warrant under his hand and seal.",
+        "src": "Constitution of India, Article 148",
+        "url": "https://cag.gov.in/"
+      },
+      {
+        "id": "polp-04",
+        "q": "The Election Commission of India is provided for under:",
+        "o": [
+          "Article 280",
+          "Article 324",
+          "Article 356",
+          "Article 368"
+        ],
+        "a": 1,
+        "e": "Article 324 vests the superintendence, direction and control of elections in the Election Commission.",
+        "src": "Constitution of India, Article 324",
+        "url": "https://eci.gov.in/"
+      },
+      {
+        "id": "polp-05",
+        "q": "What is the normal term of the Lok Sabha, unless sooner dissolved?",
+        "o": [
+          "4 years",
+          "5 years",
+          "6 years",
+          "7 years"
+        ],
+        "a": 1,
+        "e": "The normal duration is five years from the date appointed for its first meeting, unless sooner dissolved; during a National Emergency it may be extended by law within constitutional limits.",
+        "src": "Constitution of India, Article 83",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      }
+    ]
+  },
+  {
+    "id": "history_ancient",
+    "subject": "History",
+    "title": "Ancient India: Indus Valley & Buddhism",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "his-a01",
+        "q": "The Great Bath was discovered at which Harappan site?",
+        "o": [
+          "Harappa",
+          "Mohenjo-daro",
+          "Dholavira",
+          "Lothal"
+        ],
+        "a": 1,
+        "e": "The Great Bath is a major structure at Mohenjo-daro in present-day Pakistan.",
+        "src": "NCERT, Our Pasts / Themes in Indian History",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "his-a02",
+        "q": "Which Harappan site is especially associated with an ancient dockyard?",
+        "o": [
+          "Lothal",
+          "Kalibangan",
+          "Rakhigarhi",
+          "Banawali"
+        ],
+        "a": 0,
+        "e": "Lothal in Gujarat is widely associated in textbooks with a dockyard-like basin and maritime trade.",
+        "src": "Archaeological Survey of India; NCERT",
+        "url": "https://asi.nic.in/"
+      },
+      {
+        "id": "his-a03",
+        "q": "The 24th Tirthankara of Jainism was:",
+        "o": [
+          "Rishabhanatha",
+          "Parshvanatha",
+          "Mahavira",
+          "Neminatha"
+        ],
+        "a": 2,
+        "e": "Mahavira is regarded as the 24th Tirthankara in Jain tradition.",
+        "src": "NCERT history resources",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "his-a04",
+        "q": "Gautama Buddha delivered his first sermon at:",
+        "o": [
+          "Bodh Gaya",
+          "Sarnath",
+          "Kushinagar",
+          "Lumbini"
+        ],
+        "a": 1,
+        "e": "The first sermon, traditionally called Dharmachakra Pravartana, was delivered at Sarnath near Varanasi.",
+        "src": "NCERT history resources; Archaeological Survey of India",
+        "url": "https://asi.nic.in/"
+      },
+      {
+        "id": "his-a05",
+        "q": "The Fourth Buddhist Council under Kanishka is traditionally associated with:",
+        "o": [
+          "Pataliputra",
+          "Vaishali",
+          "Kundalvana in Kashmir",
+          "Rajgir"
+        ],
+        "a": 2,
+        "e": "The Fourth Buddhist Council is traditionally associated with Kashmir during the reign of Kanishka; accounts vary across Buddhist traditions.",
+        "src": "NCERT history resources",
+        "url": "https://ncert.nic.in/"
+      }
+    ]
+  },
+  {
+    "id": "geography_physical",
+    "subject": "Geography",
+    "title": "Indian Physical Geography & Climate",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "geo-p01",
+        "q": "Which is the oldest mountain range in India?",
+        "o": [
+          "Himalaya",
+          "Aravalli",
+          "Western Ghats",
+          "Satpura"
+        ],
+        "a": 1,
+        "e": "The Aravalli range is among the oldest fold mountain systems in the world and is highly denuded.",
+        "src": "NCERT, India: Physical Environment",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "geo-p02",
+        "q": "The Tropic of Cancer passes through how many Indian states?",
+        "o": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "a": 2,
+        "e": "The Tropic of Cancer crosses eight Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+        "src": "Survey of India; NCERT",
+        "url": "https://surveyofindia.gov.in/"
+      },
+      {
+        "id": "geo-p03",
+        "q": "Which soil is generally considered most suitable for cotton cultivation?",
+        "o": [
+          "Laterite soil",
+          "Black soil",
+          "Mountain soil",
+          "Desert soil"
+        ],
+        "a": 1,
+        "e": "Regur or black soil has high clay content and moisture-retention capacity and is traditionally associated with cotton cultivation.",
+        "src": "NCERT, India: Physical Environment",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "geo-p04",
+        "q": "The southwest monsoon normally reaches Kerala around:",
+        "o": [
+          "Early June",
+          "Early April",
+          "Late July",
+          "Early September"
+        ],
+        "a": 0,
+        "e": "The southwest monsoon typically sets in over Kerala around the beginning of June, though the exact date varies each year.",
+        "src": "India Meteorological Department",
+        "url": "https://mausam.imd.gov.in/"
+      },
+      {
+        "id": "geo-p05",
+        "q": "Which pass connects the Kashmir Valley with Ladakh by road?",
+        "o": [
+          "Nathu La",
+          "Zoji La",
+          "Shipki La",
+          "Bomdi La"
+        ],
+        "a": 1,
+        "e": "Zoji La lies on the Srinagar–Leh route and connects the Kashmir Valley with the Ladakh region.",
+        "src": "Border Roads Organisation",
+        "url": "https://bro.gov.in/"
+      }
+    ]
+  },
+  {
+    "id": "science_physics",
+    "subject": "General Science",
+    "title": "Physics: Motion, Light & Electricity",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "phy-01",
+        "q": "The SI unit of force is:",
+        "o": [
+          "Joule",
+          "Watt",
+          "Newton",
+          "Pascal"
+        ],
+        "a": 2,
+        "e": "Force is measured in newtons (N), equivalent to kg·m/s².",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "phy-02",
+        "q": "Which mirror is commonly used as a rear-view mirror in vehicles?",
+        "o": [
+          "Plane",
+          "Concave",
+          "Convex",
+          "Cylindrical"
+        ],
+        "a": 2,
+        "e": "A convex mirror provides a wider field of view and forms erect, diminished images.",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "phy-03",
+        "q": "The speed of light in vacuum is approximately:",
+        "o": [
+          "3 × 10⁶ m/s",
+          "3 × 10⁸ m/s",
+          "3 × 10¹⁰ m/s",
+          "3 × 10⁴ m/s"
+        ],
+        "a": 1,
+        "e": "The speed of light in vacuum is exactly 299,792,458 metres per second; 3 × 10⁸ m/s is the common approximation.",
+        "src": "NIST — Fundamental Physical Constants",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      },
+      {
+        "id": "phy-04",
+        "q": "Which instrument measures electric current?",
+        "o": [
+          "Voltmeter",
+          "Ammeter",
+          "Barometer",
+          "Hygrometer"
+        ],
+        "a": 1,
+        "e": "An ammeter measures electric current and is connected in series in a simple circuit.",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "phy-05",
+        "q": "Sound cannot travel through:",
+        "o": [
+          "Water",
+          "Steel",
+          "Air",
+          "Vacuum"
+        ],
+        "a": 3,
+        "e": "Sound is a mechanical wave and requires a material medium; it cannot propagate through a vacuum.",
+        "src": "NCERT Science textbooks",
+        "url": "https://ncert.nic.in/"
+      }
+    ]
+  },
+  {
+    "id": "science_chemistry",
+    "subject": "General Science",
+    "title": "Chemistry: Elements, Acids & Everyday Science",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "chem-01",
+        "q": "A solution with pH less than 7 is generally:",
+        "o": [
+          "Acidic",
+          "Basic",
+          "Neutral",
+          "Always saline"
+        ],
+        "a": 0,
+        "e": "At standard reference conditions, pH below 7 indicates an acidic solution.",
+        "src": "NCERT Chemistry textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "chem-02",
+        "q": "The chemical symbol Na stands for:",
+        "o": [
+          "Nitrogen",
+          "Sodium",
+          "Neon",
+          "Nickel"
+        ],
+        "a": 1,
+        "e": "Na is the symbol for sodium, derived from the Latin name natrium.",
+        "src": "IUPAC Periodic Table",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      },
+      {
+        "id": "chem-03",
+        "q": "Which gas is commonly filled in electric bulbs to reduce evaporation of the filament?",
+        "o": [
+          "Oxygen",
+          "Hydrogen",
+          "Argon",
+          "Carbon dioxide"
+        ],
+        "a": 2,
+        "e": "Argon, an inert gas, is commonly used in incandescent bulbs to reduce filament evaporation.",
+        "src": "NCERT Chemistry textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "chem-04",
+        "q": "Rusting of iron requires oxygen and:",
+        "o": [
+          "Nitrogen",
+          "Moisture",
+          "Helium",
+          "Methane"
+        ],
+        "a": 1,
+        "e": "Rusting is an electrochemical corrosion process that requires oxygen and water.",
+        "src": "NCERT Chemistry textbooks",
+        "url": "https://ncert.nic.in/"
+      },
+      {
+        "id": "chem-05",
+        "q": "Which of the following is a noble gas?",
+        "o": [
+          "Chlorine",
+          "Nitrogen",
+          "Helium",
+          "Hydrogen"
+        ],
+        "a": 2,
+        "e": "Helium belongs to Group 18, the noble gases, and is chemically very unreactive.",
+        "src": "IUPAC Periodic Table",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/"
+      }
+    ]
+  },
+  {
+    "id": "static_gk_india",
+    "subject": "Static GK",
+    "title": "India: National Symbols & Institutions",
+    "examTags": [
+      "SSC",
+      "Railway",
+      "Banking",
+      "State PCS",
+      "State Police"
+    ],
+    "difficulty": "Foundation",
+    "questions": [
+      {
+        "id": "gk-01",
+        "q": "India's national anthem was written by:",
+        "o": [
+          "Bankim Chandra Chatterjee",
+          "Rabindranath Tagore",
+          "Sarojini Naidu",
+          "Muhammad Iqbal"
+        ],
+        "a": 1,
+        "e": "Jana Gana Mana was composed by Rabindranath Tagore; its Hindi version was adopted as the national anthem on 24 January 1950.",
+        "src": "National Portal of India",
+        "url": "https://knowindia.india.gov.in/"
+      },
+      {
+        "id": "gk-02",
+        "q": "The national song of India is:",
+        "o": [
+          "Vande Mataram",
+          "Saare Jahan Se Achha",
+          "Jana Gana Mana",
+          "Ae Mere Watan"
+        ],
+        "a": 0,
+        "e": "Vande Mataram, written by Bankim Chandra Chatterjee, has the status of the national song.",
+        "src": "National Portal of India",
+        "url": "https://knowindia.india.gov.in/"
+      },
+      {
+        "id": "gk-03",
+        "q": "Where is the headquarters of the ISRO located?",
+        "o": [
+          "Mumbai",
+          "Hyderabad",
+          "Bengaluru",
+          "New Delhi"
+        ],
+        "a": 2,
+        "e": "ISRO headquarters is in Bengaluru, Karnataka.",
+        "src": "ISRO — Organisation",
+        "url": "https://www.isro.gov.in/"
+      },
+      {
+        "id": "gk-04",
+        "q": "The Constitution of India was adopted by the Constituent Assembly on:",
+        "o": [
+          "15 August 1947",
+          "26 November 1949",
+          "26 January 1950",
+          "2 October 1950"
+        ],
+        "a": 1,
+        "e": "The Constituent Assembly adopted the Constitution on 26 November 1949; it came into force on 26 January 1950.",
+        "src": "Constitution of India; National Portal of India",
+        "url": "https://legislative.gov.in/constitution-of-india/"
+      },
+      {
+        "id": "gk-05",
+        "q": "The headquarters of the Supreme Court of India is in:",
+        "o": [
+          "Mumbai",
+          "Kolkata",
+          "New Delhi",
+          "Prayagraj"
+        ],
+        "a": 2,
+        "e": "The Supreme Court of India is located in New Delhi.",
+        "src": "Supreme Court of India",
+        "url": "https://www.sci.gov.in/"
+      }
+    ]
   }
 ]
