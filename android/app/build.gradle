@@ -4,7 +4,7 @@ android {
     namespace = "com.upsc.maptrainer"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.upsc.maptrainer"
+        applicationId "com.upsc.maptrainer.web"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
