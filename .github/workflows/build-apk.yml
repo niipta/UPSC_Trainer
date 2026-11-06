@@ -1,61 +1,59 @@
-name: Build Android APKs
+name: Build Native Kotlin Android APK
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
+    paths:
+      - "app/**"
+      - "gradle/**"
+      - "build.gradle.kts"
+      - "settings.gradle.kts"
+      - ".github/workflows/build-apk.yml"
+      - "tools/validate_shared_data.py"
+      - "assets/topics.json"
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
   workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+permissions:
+  contents: read
 
+concurrency:
+  group: native-android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-and-build:
+    name: Test and build Kotlin app
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up JDK 21
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '21'
+          distribution: temurin
+          java-version: "17"
 
-      - name: Setup Gradle
+      - name: Set up Gradle 8.9
         uses: gradle/actions/setup-gradle@v4
-
-      - name: Set up Node.js 22
-        uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          gradle-version: "8.9"
 
-      - name: Install NPM dependencies
-        run: npm install --no-audit --no-fund
+      - name: Validate shared topic data
+        run: python3 tools/validate_shared_data.py
 
-      - name: Build Web Application
-        run: npm run build
+      - name: Run Kotlin unit tests
+        run: gradle :app:testDebugUnitTest --no-daemon --stacktrace
 
-      - name: Sync Capacitor Android Assets
-        run: npx cap sync android
+      - name: Assemble native debug APK
+        run: gradle :app:assembleDebug --no-daemon --stacktrace
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x android/gradlew
-
-      - name: Build Debug APK
-        working-directory: ./android
-        run: ./gradlew assembleDebug --stacktrace
-
-      - name: Build Play Store Android App Bundle (.aab)
-        working-directory: ./android
-        run: ./gradlew bundleRelease --stacktrace
-        continue-on-error: true
-
-      - name: Upload APK & AAB Artifacts
+      - name: Upload native APK
         uses: actions/upload-artifact@v4
         with:
-          name: upsc-map-trainer-binaries
-          path: |
-            android/app/build/outputs/apk/debug/*.apk
-            android/app/build/outputs/apk/release/*.apk
-            android/app/build/outputs/bundle/release/*.aab
+          name: upsc-map-trainer-native-debug
+          path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+          retention-days: 14
