@@ -56,6 +56,7 @@ interface HomeScreenProps {
   onOpenDidYouKnow?: () => void;
   onOpenPyqAtlas?: () => void;
   onOpenMainsCompendium?: () => void;
+  onOpenStudyLibrary?: () => void;
 }
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({
@@ -80,7 +81,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   onReviewFlashcard,
   onOpenDidYouKnow,
   onOpenPyqAtlas,
-  onOpenMainsCompendium
+  onOpenMainsCompendium,
+  onOpenStudyLibrary
 }) => {
   const [homeMode, setHomeMode] = useState<'LEARN' | 'TEST'>('LEARN');
   const [selectedGroup, setSelectedGroup] = useState<string>('All');
@@ -197,6 +199,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   return (
     <div className="min-h-screen bg-[#F7F2EA] text-[#1F3A4D] px-4 py-5 max-w-4xl mx-auto pb-28">
       {/* Top Banner Navigation Bar */}
+      {onOpenStudyLibrary && (
+        <button onClick={onOpenStudyLibrary} className="w-full mb-4 rounded-2xl bg-[#1F3A4D] text-white p-4 flex items-center justify-between shadow-md hover:shadow-lg transition">
+          <span className="text-left"><span className="block text-xs uppercase tracking-widest text-amber-300 font-bold">SSC · Railway · Banking · State exams</span><span className="block font-bold text-base mt-1">Open Study Library</span><span className="block text-xs text-white/70 mt-1">Topic-wise practice · explanations · references</span></span>
+          <BookOpen className="w-6 h-6 text-amber-300"/>
+        </button>
+      )}
+
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-xl bg-[#1F3A4D] flex items-center justify-center text-white text-lg shadow-sm">
