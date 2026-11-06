@@ -10,11 +10,11 @@ This repository intentionally maintains two first-class applications over one ge
 | Native Android | `app/` | `app/build/outputs/apk/` | Kotlin + Jetpack Compose offline-first map trainer |
 | Capacitor Android | `android/` | Android APK/AAB | Android distribution of the React web experience |
 
-The Capacitor wrapper is not the Kotlin application. Keep the two Android targets clearly labelled in CI and release notes.
+The Capacitor wrapper is not the Kotlin application. Their Android application IDs are intentionally distinct (`com.upsc.maptrainer` and `com.upsc.maptrainer.web`) so both can be installed side by side.
 
 ## Shared data contract
 
-The topic catalogue is currently duplicated for the consumers that need it:
+The canonical topic definitions live in `tools/topics_data.py`. Run `python3 tools/build_topics.py` to generate the five consumer copies:
 
 - `src/data/topics.json`
 - `assets/topics.json`
@@ -22,7 +22,7 @@ The topic catalogue is currently duplicated for the consumers that need it:
 - `app/src/main/assets/topics.json`
 - `android/app/src/main/assets/public/topics.json`
 
-Run `python3 tools/validate_shared_data.py` after changing topic data. It checks JSON structure, required fields, coordinate ranges, duplicate IDs/names, category membership, and byte-for-byte parity across all copies.
+Run `python3 tools/validate_shared_data.py` after generation. CI also checks that the native Kotlin and Capacitor Android application IDs differ, so both packages can be installed on one device. It checks JSON structure, required fields, coordinate ranges, duplicate IDs/names, category membership, and byte-for-byte parity across all copies.
 
 This is a consistency guard, not a factual geography verifier. Coordinates, state assignments, facts and PYQ attributions still require editorial/source verification.
 
@@ -35,7 +35,7 @@ Artifacts are uploaded separately so users can distinguish the Kotlin native app
 
 ## Current limitations / next architecture work
 
-1. Topic JSON is duplicated. CI detects drift, but a future single-source generator should replace manual copying.
+1. Topic JSON is generated from one Python source but copied into five consumer locations. The generator and CI validator now keep those copies aligned.
 2. User progress is local to each application (web local storage vs Android preferences). There is no shared account or cloud-sync contract yet.
 3. The two applications do not currently share quiz-engine code or identical feature coverage.
 4. The web leaderboard/ad simulations must not be presented as live users or real rewarded advertising.
